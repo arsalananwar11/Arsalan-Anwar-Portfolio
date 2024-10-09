@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: space-between;
     padding-top: 40px;
-    padding-bottom: 100px; /* Ensure enough space */
+    padding-bottom: 55px;
     z-index: 1;
     margin: 0 10%;
     margin-top: 45px;
@@ -155,7 +155,9 @@
     .container {
         flex-direction: column-reverse;
         text-align: center;
-        padding-bottom: 50px; /* Adjusted for smaller screens */
+        padding-bottom: 0px; /* Adjusted for smaller screens */
+        margin-top: 80px;
+        justify-content: center;
     }
 
     .content {
