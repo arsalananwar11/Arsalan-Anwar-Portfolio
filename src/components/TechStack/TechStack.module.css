@@ -1,5 +1,5 @@
 .container {
-  color: var(--color-text);
+  color: var(--color-dark-bg-text);
   margin-top: 0px;
   margin-left: 5%;
   margin-right: 5%;
@@ -7,7 +7,7 @@
 }
 
 .title {
-  color: var(--color-text);
+  color: var(--color-normal-text);
   font-size: 32px;
   font-weight: 700;
   letter-spacing: 1.75px;
@@ -53,7 +53,7 @@
 }
 
 .card {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: var(--color-dark);
   border-radius: 15px;
   padding: 20px;
   text-align: center;
