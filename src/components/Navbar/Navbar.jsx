@@ -28,7 +28,9 @@ export default function Navbar() {
                 <li>
                 <a className={styles.icon} href='https://github.com/arsalananwar11' target='blank'><img src={getImageURL("contact/githubIcon.png")} alt="GitHub" /></a>
                 </li>
-          
+                <li>
+                <a className={styles.icon} href='https://leetcode.com/u/arsalananwar11/' target='blank'><img src={getImageURL("contact/leetcodeIcon.png")} alt="Leetcode" /></a>
+                </li>
            </ul>
         </div> 
     </nav>
