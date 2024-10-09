@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.png",
+    "category": "Programming Languages"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "skills/java.png",
+    "category": "Programming Languages"
+  },
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png",
+    "category": "Frontend Development"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png",
+    "category": "Frontend Development"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/javascript.png",
+    "category": "Frontend Development"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png",
+    "category": "Frontend Development"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "skills/figma.png",
+    "category": "Frontend Development"
+  },
+  {
+    "title": "Django",
+    "imageSrc": "skills/django.png",
+    "category": "Backend Development"
+  },
+  {
+    "title": "AWS",
+    "imageSrc": "skills/aws.png",
+    "category": "Cloud Computing"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "skills/git.png",
+    "category": "DevOps"
+  },
+  {
+    "title": "Docker",
+    "imageSrc": "skills/docker.png",
+    "category": "DevOps"
+  },
+  {
+    "title": "Travis CI",
+    "imageSrc": "skills/travis_ci.png",
+    "category": "DevOps"
+  },
+  {
+    "title": "PostgreSQL",
+    "imageSrc": "skills/postgresql.png",
+    "category": "Database Management"
+  },
+  {
+    "title": "MySQL",
+    "imageSrc": "skills/mysql.png",
+    "category": "Database Management"
+  },
+  {
+    "title": "Numpy",
+    "imageSrc": "skills/numpy.png",
+    "category": "Data Science"
+  },
+  {
+    "title": "Pandas",
+    "imageSrc": "skills/pandas.jpeg",
+    "category": "Data Science"
+  },
+  {
+    "title": "Flask",
+    "imageSrc": "skills/flask.png",
+    "category": "Backend Development"
+  },
+  {
+    "title": "Azure DevOps",
+    "imageSrc": "skills/azure_devops.png",
+    "category": "DevOps"
+  },
+  {
+    "title": "Firebase",
+    "imageSrc": "skills/firebase.png",
+    "category": "Database Management"
+  },
+  {
+    "title": "GitHub",
+    "imageSrc": "skills/github.png",
+    "category": "DevOps"
+  }
+]

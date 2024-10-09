@@ -1,0 +1,125 @@
+@import "../../vars.css";
+
+.container {
+    color: var(--color-text);
+    margin-top: -20px; /* Adjust margin-top to ensure it's below the summary */
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.title {
+    color: var(--color-text);
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    /* text-transform: uppercase; */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.history {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.historyItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%); /* Match the background gradient of project card */
+  border-radius: 15px;
+  padding: 20px;
+  width: 100%;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+}
+
+.historyItemDetails {
+    font-family: var(--font-roboto);
+    color: var(--color-text);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.organizationImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.role {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.organization {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.dates {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.experienceList {
+    list-style-position: inside;
+    font-size: 16px;
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+@media screen and (max-width: 560px) {
+  .content {
+      min-width: 240px;
+  }
+
+  .title {
+      font-size: 28px;
+      margin-bottom: 30px;
+  }
+
+  .header {
+      flex-direction: row;
+      align-items: center;
+      text-align: left;
+  }
+
+  .organizationImage {
+      width: 40px;
+      height: 40px;
+  }
+
+  .role {
+      font-size: 20px;
+  }
+
+  .organization {
+      font-size: 18px;
+  }
+
+  .dates {
+      font-size: 16px;
+  }
+}

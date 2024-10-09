@@ -1,0 +1,32 @@
+[
+  
+  {
+    "title": "Technical Interview Prep",
+    "imageSrc": "certificate/codepath_interview_prep.jpeg",
+    "description": "Completed a series of coding challenges focused on data structures and algorithms, simulating real-world technical interview scenarios.",
+    "skills": ["Data Structures", "Algorithms", "Problem Solving"],
+    "certificate_link": "https://drive.google.com/file/d/1w7coHaRdR8ISj2KWKCN-1NvmWx8OKuKB/view?usp=sharing"
+  },  
+  {
+      "title": "Introduction to Data Science in Python",
+      "imageSrc": "certificate/dataScienceCertifictae.jpeg",
+      "description": "Learn essential Python techniques for data science: lambdas, csv manipulation, DataFrame querying, distributions, sampling, and t-tests.",
+      "skills": ["Python", "Numpy", "Pandas", "Data Cleansing"],
+      "certificate_link": "https://www.coursera.org/verify/4R94WP3DVYPC"
+    },
+    {
+        "title": "Version Control",
+        "imageSrc": "certificate/versionControl.jpeg",
+        "description": "This course covered implementing Version Control systems, navigating and configuring using the command line, utilizing GitHub repositories, creating GitHub repositories, and effectively managing code revisions.",
+        "skills": ["GitHub", "Bash (Unix Shell)", "Web Development", "Linux"],
+        "certificate_link": "https://coursera.org/verify/9ZES6J5WU2CJ"
+    },
+    {
+        "title": "Principles of UX/UI Design",
+        "imageSrc": "certificate/principles_of_UX_UI_design.jpeg",
+        "description": "This course covered fundamentals of User Experience (UX) design and research. It also covered Front-End Web Development, creating wireframes and prototypes in Figma",
+        "skills": ["Figma", "Web Design", "Accessibility", "Front-End Web Development", "User Experience (UX)"],
+        "certificate_link": "https://coursera.org/verif y/8R94V3SEBYC9"
+    }
+  ]
+  

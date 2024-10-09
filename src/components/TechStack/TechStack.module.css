@@ -1,0 +1,107 @@
+.container {
+  color: var(--color-text);
+  margin-top: 0px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 40px;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  /* text-transform: uppercase; */
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: row; 
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  white-space: nowrap;
+  gap: 30px;
+  padding: 10px;
+}
+
+.category {
+  display: inline-flex; 
+}
+
+.categoryTitle {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.aboutItems {
+  display: flex;
+  flex-direction: row; /* Cards in a row */
+  gap: 20px;
+}
+
+.aboutItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  min-width: 150px;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.aboutIcon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.cardContent h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 810px) {
+  .container {
+    padding: 30px;
+    margin-top: 0px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .aboutItems {
+    gap: 10px;
+  }
+
+  .aboutItem {
+    min-width: 100px;
+  }
+
+  .card {
+    padding: 10px;
+  }
+
+  .aboutIcon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+  }
+
+  .cardContent h3 {
+    font-size: 14px;
+  }
+}

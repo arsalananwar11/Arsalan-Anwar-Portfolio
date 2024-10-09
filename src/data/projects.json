@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Inquis AI",
+    "imageSrc": "projects/project.png",
+    "description": "[IN PROGRESS]A unified course assistant and content management system that significantly improved student engagement and learning efficiency by 21% through an integrated front-end and scalable back-end built with Flask and Firebase.",
+    "skills": ["React", "Flask", "Firebase", "Azure DevOps", "Pinecone"],
+    "demo":"https://www.inquis-ai.com/"
+  },{
+      "title": "VibeCheck",
+      "imageSrc": "projects/project.png",
+      "description": "A music-based social networking application integrating Spotify API for real-time user engagement. Deployed on AWS with Travis CI/CD and optimized latency by 50-60% using Redis Channels.",
+      "skills": ["Django", "AWS", "Travis CI", "Spotify API", "Redis", "Hugging Face"],
+      "source": "https://github.com/gcivil-nyu-org/Wednesday-Fall2023-Team-1",
+      "demo": "https://drive.google.com/file/d/1U6kH7Zac3xhIsj6dKpi6X7bP-ADQAIrl/view"
+  },
+  {
+      "title": "Roomio",
+      "imageSrc": "projects/project.png",
+      "description": "An apartment rental and roommate finder web application, built with Django and PostgreSQL, focused on secure data transactions and user-centered design.",
+      "skills": ["Django", "Python", "PostgreSQL", "JavaScript", "Bootstrap"],
+      "source": "https://github.com/arsalananwar11"
+  },
+  {
+      "title": "Store Inventory Management System",
+      "imageSrc": "projects/project.png",
+      "description": "A Java Spring web application for store inventory management, integrating MySQL database for robust data handling.",
+      "skills": ["Spring Boot", "Java", "MySQL", "Itext"]
+  }
+]

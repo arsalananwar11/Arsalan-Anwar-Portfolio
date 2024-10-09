@@ -1,0 +1,96 @@
+@import "../../vars.css";
+
+.container {
+  margin-top: 76px;
+  color: var(--color-text);
+  margin-left: 10%;
+  margin-right: 10%;
+  overflow: hidden; /* Ensure no overflow */
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.projects {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 15px;
+  padding: 10px;
+  margin: 50px;
+  width: 100%;
+  scroll-snap-type: x mandatory;
+}
+
+.projects::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar */
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.prev {
+  /* left: -30px; */
+}
+
+.next {
+  right: 0px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: var(--color-secondary);
+}
+
+@media screen and (max-width: 560px) {
+  .container {
+    margin-top: 0px;
+  }
+
+  .title {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+
+  .projects {
+    width: calc(100% - 40px); 
+    gap: 20px;
+  }
+
+  .prev {
+    left: 0;
+  }
+
+  .next {
+    right: 0;
+  }
+
+  .projects > div {
+    min-width: 240px; /* Reduce card width for smaller screens */
+  }
+}

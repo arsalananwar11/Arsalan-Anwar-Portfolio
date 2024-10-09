@@ -1,0 +1,31 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 0px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px; /* Adjusted to reduce vertical space */
+}
+
+@media screen and (max-width: 560px) {
+  .container {
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+}
