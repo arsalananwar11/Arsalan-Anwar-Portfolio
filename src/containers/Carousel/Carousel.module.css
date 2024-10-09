@@ -2,7 +2,7 @@
 
 .container {
   margin-top: 76px;
-  color: var(--color-text);
+  color: var(--color-dark-bg-text);
   margin-left: 10%;
   margin-right: 10%;
   overflow: hidden; /* Ensure no overflow */
@@ -44,7 +44,7 @@
   top: 50%;
   transform: translateY(-50%);
   background-color: var(--color-primary);
-  color: var(--color-text);
+  color: var(--color-dark-bg-text);
   border: none;
   border-radius: 50%;
   width: 40px;

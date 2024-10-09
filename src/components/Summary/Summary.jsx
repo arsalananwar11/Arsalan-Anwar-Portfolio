@@ -16,7 +16,7 @@ export default function Summary() {
         </p>
         <div className={styles.BtnsContainer}>
           <a className={styles.Btns} href='/Arsalan_Anwar_Resume.pdf' download>View My Resume</a>
-          <a className={styles.icon} href='mailto:arsalan.anwar.7777@gmail.com'><img src={getImageURL("contact/emailIcon.png")} alt="Email" /></a>
+          <a className={styles.icon} href='mailto:arsalan.anwar.7777@gmail.com'><img src={getImageURL("contact/emailIcon.png")} alt="Email" hidden/></a>
         </div>
       </div>
       <img className={styles.summaryImg} src={getImageURL("summary/Arsalan_Anwar.png")} alt='Summary Image' />

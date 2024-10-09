@@ -1,11 +1,13 @@
 :root {
 
     /*Colors*/
-    --color-text: #ece5e5;
-    --color-primary: #576cbc;
-    --color-secondary: #19376d;
-    --color-dark: #0b2447;
-    --color-bg: #04152d;
+    --color-normal-text: #2c2c2c;
+    --color-dark-bg-text: #cfcfcf;
+    --color-btn-text: #ffffff;
+    --color-primary: #249fe3;
+    --color-secondary: #001d2d;
+    --color-dark: #001d2d;
+    --color-bg: #ebebeb;
 
     /*Font*/
     --font-inter: 'inter'
