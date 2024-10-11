@@ -2,19 +2,19 @@
 
 .container {
   color: var(--color-dark-bg-text);
-  margin-top: 40px;
+  margin-top: 0px;
   margin-left: 5%;
   margin-right: 5%;
+  padding-bottom: 40px;
 }
 
 .title {
-  color: var(--color-dark-bg-text);
+  color: var(--color-normal-text);
   font-size: 32px;
   font-weight: 700;
   letter-spacing: 1.75px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-align: center;
-  margin-bottom: 0px;
 }
 
 .content {
