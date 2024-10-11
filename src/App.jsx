@@ -15,8 +15,8 @@ export default function App() {
       <Navbar />
       <Summary />
       <TechStack />
-      {/* <Experience />
       <Projects />
+      {/* <Experience />
       <Certification /> */}
       <Contact />
     </div>

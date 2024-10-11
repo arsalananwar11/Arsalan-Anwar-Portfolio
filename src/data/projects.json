@@ -2,28 +2,50 @@
   {
     "title": "Inquis AI",
     "imageSrc": "projects/project.png",
-    "description": "[IN PROGRESS] A unified course assistant and content management system that significantly improved student engagement and learning efficiency by 21% through an integrated front-end and scalable back-end built with Flask and Firebase.",
-    "skills": ["React", "Flask", "Firebase", "Azure DevOps", "Pinecone"],
+    "description": "[IN PROGRESS] A unified AI assistant and content management system that significantly improved student engagement and learning efficiency by 21% through an integrated front-end and scalable back-end built with Flask and Firebase.",
+    "skills": ["Flask", "Firebase", "Azure DevOps", "Pinecone", "LangChain", "Hugging Face", "Retreival Augmented Generation (RAG)"],
     "demo":"https://www.inquis-ai.com/"
-  },{
-      "title": "VibeCheck",
-      "imageSrc": "projects/project.png",
-      "description": "A music-based social networking application integrating Spotify API for real-time user engagement. Deployed on AWS with Travis CI/CD and optimized latency by 50-60% using Redis Channels.",
-      "skills": ["Django", "AWS", "Travis CI", "Spotify API", "Redis", "Hugging Face"],
-      "source": "https://github.com/gcivil-nyu-org/Wednesday-Fall2023-Team-1",
-      "demo": "https://drive.google.com/file/d/1U6kH7Zac3xhIsj6dKpi6X7bP-ADQAIrl/view"
   },
   {
-      "title": "Roomio",
+      "title": "Automated Industrial Inspection System using Computer Vision",
       "imageSrc": "projects/project.png",
-      "description": "An apartment rental and roommate finder web application, built with Django and PostgreSQL, focused on secure data transactions and user-centered design.",
-      "skills": ["Django", "Python", "PostgreSQL", "JavaScript", "Bootstrap"],
-      "source": "https://github.com/arsalananwar11"
+      "description": "A system to inspect manufactured parts and enhance quality control by using computer vision techniques. This system aims to boost inspection accuracy and efficiency, thus reducing costs and human error.",
+      "skills": ["Python", "Computer Vision", "Deep Learning"],
+      "source": "https://github.com/arsalananwar11/Automated-Industrial-Inspection-System-using-Computer-Vision"
   },
   {
-      "title": "Store Inventory Management System",
+    "title": "Image Captioning Benchmarking using Encoder/Decoder Deep Learning Models",
+    "imageSrc": "projects/project.png",
+    "description": "This project evaluates the performance of encoder-decoder deep neural networks for image captioning using pre-trained ResNeXt CNN as the encoder, and both GRU & LSTM architectures as decoders. The models are compared using BLEU, METEOR, and ROUGE scores",
+    "skills": ["Python", "Deep Learning", "Flickr8", "ResNet", "LSTM", "Encoder/Decoder"],
+    "source": "https://github.com/tkobil/image-captioning-using-encoder-decoder-models"
+  },
+  {
+    "title": "Safeguarding NYC: Analyzing Crime Patterns using Big Data",
+    "imageSrc": "projects/project.png",
+    "description": "Projected a 30% enhancement in NYPD's crime prevention efficiency through big data analysis of 220k+ crime records using advanced ELT pipelines and Spark.",
+    "skills": ["Python", "SQL", "Spark", "Snowflake", "Data Analysis", "Big Data", "Power BI"],
+    "source": "https://github.com/arsalananwar11/Safeguarding-NYC-Analyzing-Crime-Patterns-using-Big-Data",
+    "demo": "https://www.youtube.com/watch?v=h9XeFN8BQqk"
+  },
+  {
+      "title": "Aqua Analytica: Water Demand Forecast Analytics",
       "imageSrc": "projects/project.png",
-      "description": "A Java Spring web application for store inventory management, integrating MySQL database for robust data handling.",
-      "skills": ["Spring Boot", "Java", "MySQL", "Itext"]
+      "description": "A Water Consumption Analytics System for Bengaluru using advanced ML techniques such as ARIMA, SARIMA & Holt-Winters for forecasting.",
+      "skills": ["Python", "Flask", "Demand Forecasting", "Time Series Forecasting", "Data Analytics"],
+      "demo": "https://aquaanalytica.pythonanywhere.com/"
+  },
+  {
+      "title": "Autonomous Robot Navigation using RL",
+      "imageSrc": "projects/project.png",
+      "description": "Trained a Turtlebot3 Waffle Pi to autonomously navigate through the manufacturing plant without collision using DQN algorithm and human intervention data for faster learning.",
+      "skills": ["Python", "Reinforcement Learning", "Robot Operating System (ROS)", "Gazebo", "OpenAI Gym"], 
+      "source": "https://github.com/arsalananwar11/Autonomous-Robot-Navigation-Using-DRL"
+  },
+  {
+      "title": "Customer Risk Assessment, Analysis and Management",
+      "imageSrc": "projects/project.png",
+      "description": "Developed a system that identifies high value customers based on CLV who at risk of churning and flags them so that they can be incentivised for retention.",
+      "skills": ["Churn Analysis", "Customer Segmentation", "CLV Modelling"]
   }
 ]
