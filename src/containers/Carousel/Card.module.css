@@ -53,31 +53,39 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: var(--space-sm);
+  gap: var(--space-xs);
   list-style: none;
+  max-height: 80px;
+  overflow: hidden;
 }
 
 .skill {
-  font-size: var(--text-sm);
+  font-size: 0.7rem;
   font-weight: var(--font-weight-medium);
   border-radius: var(--radius-full);
-  background: var(--color-primary-light);
-  padding: var(--space-xs) var(--space-sm);
-  color: var(--color-text-dark);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%);
+  padding: 4px 8px;
+  color: white;
   display: flex;
   align-items: center;
-  gap: var(--space-xs);
+  gap: 4px;
   box-shadow: var(--shadow-sm);
+  transition: all var(--transition-normal);
+  border: none;
+  white-space: nowrap;
 }
 
 .skillIcon {
-  width: 20px;
-  height: 20px;
+  width: 12px;
+  height: 12px;
+  filter: brightness(0) invert(1);
 }
 
 .skill:hover {
-  background: var(--color-primary-dark);
-  color: var(--color-text-primary);
+  background: var(--color-primary);
+  color: var(--color-text-light);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
 }
 
 .links {
