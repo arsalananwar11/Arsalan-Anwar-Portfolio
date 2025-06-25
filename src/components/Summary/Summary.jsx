@@ -54,7 +54,7 @@ export default function Summary() {
         </div>
       </div>
       <div className={styles.imageContainer}>
-        <img className={styles.summaryImg} src={getImageURL("summary/Arsalan_Anwar.png")} alt='Arsalan Anwar - Data Scientist' />
+        <img className={styles.summaryImg} src={getImageURL("summary/Arsalan_Anwar_Grad.jpg")} alt='Arsalan Anwar - Data Scientist' />
         <div className={styles.floatingElements}>
           <div className={styles.floatingElement} style={{top: '10%', left: '10%'}}>🤖</div>
           <div className={styles.floatingElement} style={{top: '20%', right: '15%'}}>📊</div>
