@@ -1,20 +1,23 @@
 @import "../../vars.css";
 
 .container {
-  color: var(--color-dark-bg-text);
-  margin-top: 0px;
-  margin-left: 5%;
-  margin-right: 5%;
+  color: var(--color-text-primary);
+  margin: var(--space-3xl) auto;
+  max-width: 1400px;
+  padding: var(--space-xl);
 }
 
 .title {
-  color: var(--color-dark-bg-text);
-  font-size: 32px;
-  font-weight: 700;
-  letter-spacing: 1.75px;
-  text-transform: uppercase;
+  color: var(--color-primary);
+  font-size: var(--text-4xl);
+  font-weight: var(--font-weight-bold);
   text-align: center;
-  margin-bottom: 20px; /* Adjusted to reduce vertical space */
+  margin-bottom: var(--space-2xl);
+  animation: fadeIn 1s ease-out;
+  background: var(--gradient-primary);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @media screen and (max-width: 560px) {

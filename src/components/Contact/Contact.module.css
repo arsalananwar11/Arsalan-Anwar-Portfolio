@@ -1,32 +1,43 @@
 @import "../../vars.css";
 
 .container {
-  color: var(--color-dark-bg-text);
-  background-color: var(--color-secondary);
+  color: var(--color-text-primary);
+  background: var(--gradient-secondary);
+  background: var(--color-bg-light);
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 60px 10%;
-  gap: 40px;
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  padding: var(--space-3xl) var(--space-xl);
+  gap: var(--space-2xl);
+  margin-top: var(--space-3xl);
+  border-top: 1px solid var(--color-border);
+  box-shadow: var(--shadow-xl);
+  position: relative;
+  overflow: hidden;
 }
 
 .text {
   text-align: center;
+  animation: fadeIn 1s ease-out;
 }
 
 .text h2 {
-  font-size: 40px;
-  font-weight: 700;
-  letter-spacing: 2px;
-  margin-bottom: 10px;
+  font-size: var(--text-4xl);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--space-lg);
+  background: var(--gradient-primary);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .text p {
-  font-size: 20px;
-  font-weight: 400;
-  letter-spacing: 1px;
-  margin-bottom: 20px;
+  font-size: var(--text-lg);
+  font-weight: var(--font-weight-normal);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-xl);
+  max-width: 600px;
+  line-height: 1.6;
 }
 
 .links {
@@ -34,37 +45,49 @@
   flex-direction: column;
   align-items: center;
   list-style: none;
-  gap: 20px;
+  gap: var(--space-lg);
   padding: 0;
+  animation: fadeInUp 1s ease-out 0.3s both;
 }
 
 .link {
   display: flex;
   align-items: center;
-  gap: 15px;
-  transition: transform 0.3s ease;
+  gap: var(--space-lg);
+  transition: all var(--transition-normal);
+  padding: var(--space-md) var(--space-lg);
+  border-radius: var(--radius-lg);
+  background: rgba(99, 102, 241, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--color-border);
 }
 
 .link:hover {
-  transform: translateX(5px);
+  transform: translateY(-5px);
+  background: rgba(99, 102, 241, 0.1);
+  box-shadow: var(--shadow-lg);
 }
 
 .link a {
-  color: var(--color-dark-bg-text);
+  color: var(--color-text-primary);
   text-decoration: none;
-  font-size: 20px;
-  font-weight: 400;
-  letter-spacing: 1px;
+  font-size: var(--text-lg);
+  font-weight: var(--font-weight-medium);
+  transition: color var(--transition-normal);
+}
+
+.link:hover a {
+  color: var(--color-primary);
 }
 
 .icon {
-  width: 30px;
-  height: 30px;
-  transition: transform 0.3s ease;
+  width: 40px;
+  height: 40px;
+  transition: transform var(--transition-normal);
 }
 
 .link:hover .icon {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 @media screen and (max-width: 830px) {

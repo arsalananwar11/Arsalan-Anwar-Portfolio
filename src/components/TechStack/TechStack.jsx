@@ -28,7 +28,7 @@ export default function TechStack() {
   
 
   return (
-    <section className={styles.container} id='tech-stack'>
+    <section className={styles.container} id='techstack'>
       <h2 className={styles.title}>My Tech Stack</h2>
       <div className={styles.carousel} ref={movingCardsRef}>
         {Object.keys(categorizedSkills).map((category, index) => (

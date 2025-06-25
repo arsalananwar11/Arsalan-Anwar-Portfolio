@@ -1,32 +1,163 @@
 [
-  
   {
-    "title": "Technical Interview Prep",
-    "imageSrc": "certificate/codepath_interview_prep.jpeg",
-    "description": "Completed a series of coding challenges focused on data structures and algorithms, simulating real-world technical interview scenarios.",
-    "skills": ["Data Structures", "Algorithms", "Problem Solving"],
-    "certificate_link": "https://drive.google.com/file/d/1w7coHaRdR8ISj2KWKCN-1NvmWx8OKuKB/view?usp=sharing"
-  },  
+    "title": "Model Context Protocol (MCP): Hands-On with Agentic AI",
+    "imageSrc": "https://media.licdn.com/dms/image/v2/D4E22AQHDCd2DL-5FCA/feedshare-shrink_1280/B4EZZHWLmyHUAo-/0/1744953719475?e=1753920000&v=beta&t=BxfLMy2DFZ6HEKPqhevyBn2-QVAAuwtRO2Wc_cWA3Rk",
+    "description": "Hands-on training in Model Context Protocol (MCP), focusing on AI agents, API usage, and tools like Anthropic Claude.",
+    "skills": ["AI Agents", "Application Programming Interfaces (API)", "Anthropic Claude"],
+    "certificate_link": "https://media.licdn.com/dms/image/v2/D4E22AQHDCd2DL-5FCA/feedshare-shrink_1280/B4EZZHWLmyHUAo-/0/1744953719475?e=1753920000&v=beta&t=BxfLMy2DFZ6HEKPqhevyBn2-QVAAuwtRO2Wc_cWA3Rk"
+  },
   {
-      "title": "Introduction to Data Science in Python",
-      "imageSrc": "certificate/dataScienceCertifictae.jpeg",
-      "description": "Learn essential Python techniques for data science: lambdas, csv manipulation, DataFrame querying, distributions, sampling, and t-tests.",
-      "skills": ["Python", "Numpy", "Pandas", "Data Cleansing"],
-      "certificate_link": "https://www.coursera.org/verify/4R94WP3DVYPC"
-    },
-    {
-        "title": "Version Control",
-        "imageSrc": "certificate/versionControl.jpeg",
-        "description": "This course covered implementing Version Control systems, navigating and configuring using the command line, utilizing GitHub repositories, creating GitHub repositories, and effectively managing code revisions.",
-        "skills": ["GitHub", "Bash (Unix Shell)", "Web Development", "Linux"],
-        "certificate_link": "https://coursera.org/verify/9ZES6J5WU2CJ"
-    },
-    {
-        "title": "Principles of UX/UI Design",
-        "imageSrc": "certificate/principles_of_UX_UI_design.jpeg",
-        "description": "This course covered fundamentals of User Experience (UX) design and research. It also covered Front-End Web Development, creating wireframes and prototypes in Figma",
-        "skills": ["Figma", "Web Design", "Accessibility", "Front-End Web Development", "User Experience (UX)"],
-        "certificate_link": "https://coursera.org/verif y/8R94V3SEBYC9"
-    }
-  ]
-  
+    "title": "Advanced AI: NLP Techniques for Clinical Datasets",
+    "imageSrc": "https://media.licdn.com/dms/image/v2/D4E22AQHeG3rT9wWhvw/feedshare-shrink_1280/feedshare-shrink_1280/0/1716498797336?e=1753920000&v=beta&t=nFO-7tkME6uF6WT8nQFaRGvb2T8Te5H7iCrmVI9W6XM",
+    "description": "Explored advanced NLP methods tailored for analyzing clinical datasets and applying machine learning in healthcare.",
+    "skills": ["Applied Machine Learning", "Healthcare Analytics"],
+    "certificate_link": "https://media.licdn.com/dms/image/v2/D4E22AQHeG3rT9wWhvw/feedshare-shrink_1280/feedshare-shrink_1280/0/1716498797336?e=1753920000&v=beta&t=nFO-7tkME6uF6WT8nQFaRGvb2T8Te5H7iCrmVI9W6XM"
+  },
+  {
+    "title": "Generative AI for Business Leaders",
+    "imageSrc": "https://media.licdn.com/dms/image/v2/D4E22AQHXa1xrpN7PPQ/feedshare-shrink_1280/feedshare-shrink_1280/0/1716322289086?e=1753920000&v=beta&t=qlBWMkQzN4kFR3Ljjwqwv1MA_n1QT-VVtAADsbwKv0U",
+    "description": "Learned how to integrate generative AI into business strategy and operations.",
+    "skills": ["Artificial Intelligence for Business", "Business Strategy"],
+    "certificate_link": "https://media.licdn.com/dms/image/v2/D4E22AQHXa1xrpN7PPQ/feedshare-shrink_1280/feedshare-shrink_1280/0/1716322289086?e=1753920000&v=beta&t=qlBWMkQzN4kFR3Ljjwqwv1MA_n1QT-VVtAADsbwKv0U"
+  },
+  {
+    "title": "Getting Started with AWS Cloud Map",
+    "imageSrc": "https://media.licdn.com/dms/image/v2/D4E22AQEravSDCEmN8w/feedshare-shrink_1280/feedshare-shrink_1280/0/1716931401697?e=1753920000&v=beta&t=EOHvpW2_ulkUPiz75oqZsWkn6uDXt3f5eEhGywuOQZI",
+    "description": "Introductory course on AWS Cloud Map for service discovery and scalable cloud application development.",
+    "skills": ["Amazon Web Services (AWS)", "Cloud Application Development"],
+    "certificate_link": "https://media.licdn.com/dms/image/v2/D4E22AQEravSDCEmN8w/feedshare-shrink_1280/feedshare-shrink_1280/0/1716931401697?e=1753920000&v=beta&t=EOHvpW2_ulkUPiz75oqZsWkn6uDXt3f5eEhGywuOQZI"
+  },
+  {
+    "title": "Snowflake for Beginners: Make your First Snowsight Dashboard",
+    "imageSrc": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~FZDNVSVFKUNW/CERTIFICATE_LANDING_PAGE~FZDNVSVFKUNW.jpeg",
+    "description": "Learned to create dashboards using Snowflake's Snowsight interface.",
+    "skills": ["Snowflake"],
+    "certificate_link": "https://www.coursera.org/account/accomplishments/verify/FZDNVSVFKUNW"
+  },
+  {
+    "title": "Leadership Insights on Problem Solving & Decision Making",
+    "imageSrc": "https://eu.api.accredible.com/v1/frontend/credential_website_embed_image/badge/1704668",
+    "description": "Focused on effective problem-solving and decision-making strategies in leadership contexts.",
+    "skills": ["Leadership", "Problem Solving", "Decision Making"],
+    "certificate_link": "https://skillsoft.digitalbadges-eu.skillsoft.com/a52df8f1-aafa-45a6-917b-72283e6436b8#acc.xYqrDgJL"
+  },
+  {
+    "title": "Demystify AI and OpenVino Toolkit",
+    "imageSrc": "https://github.com/arsalananwar11/Resources/blob/master/Intel_OpenVino_Micro_Learning_Module_Certificate.png?raw=true",
+    "description": "Covered Intel’s OpenVino toolkit and demystified foundational AI concepts.",
+    "skills": ["OpenVino", "AI Fundamentals"],
+    "certificate_link": "https://github.com/arsalananwar11/Resources/blob/master/Intel_OpenVino_Micro_Learning_Module_Certificate.png?raw=true"
+  },
+  {
+    "title": "Introduction to TensorFlow for AI, ML, and DL",
+    "imageSrc": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~J7XRSPECPC8Q/CERTIFICATE_LANDING_PAGE~J7XRSPECPC8Q.jpeg",
+    "description": "Introductory course on using TensorFlow for artificial intelligence, machine learning, and deep learning.",
+    "skills": ["TensorFlow", "Machine Learning", "Deep Learning"],
+    "certificate_link": "https://www.coursera.org/account/accomplishments/verify/J7XRSPECPC8Q"
+  },
+  {
+    "title": "Getting Started with Power BI Desktop",
+    "imageSrc": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~EPG5E7SNA2CE/CERTIFICATE_LANDING_PAGE~EPG5E7SNA2CE.jpeg",
+    "description": "Built foundational skills in Power BI Desktop with a focus on time series forecasting.",
+    "skills": ["Power BI", "Time Series Forecasting"],
+    "certificate_link": "https://www.coursera.org/account/accomplishments/verify/EPG5E7SNA2CE"
+  },
+  {
+    "title": "Machine Learning Pipelines with Azure ML Studio",
+    "imageSrc": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~FHVH9WL878LP/CERTIFICATE_LANDING_PAGE~FHVH9WL878LP.jpeg",
+    "description": "Built and managed ML pipelines using Azure ML Studio.",
+    "skills": ["Azure ML Studio", "Time Series Forecasting"],
+    "certificate_link": "https://www.coursera.org/account/accomplishments/verify/FHVH9WL878LP"
+  },
+  {
+    "title": "Error Handling in C# with Exceptions",
+    "imageSrc": "https://github.com/arsalananwar11/Resources/blob/master/ErrorHandlingInCSharpWithExceptions.png?raw=true",
+    "description": "Learned best practices for handling exceptions and managing errors in C# applications.",
+    "skills": ["C#", "Exception Handling"],
+    "certificate_link": "https://github.com/arsalananwar11/Resources/blob/master/ErrorHandlingInCSharpWithExceptions.png"
+  },
+  {
+    "title": "Executive Data Science Capstone",
+    "imageSrc": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~M5C8NGYPTR5R/CERTIFICATE_LANDING_PAGE~M5C8NGYPTR5R.jpeg",
+    "description": "Completed the capstone project for the Executive Data Science specialization.",
+    "skills": ["Data Science", "Capstone Project"],
+    "certificate_link": "https://www.coursera.org/account/accomplishments/verify/M5C8NGYPTR5R"
+  },
+  {
+    "title": "Introduction to C# and .NET",
+    "imageSrc": "https://github.com/arsalananwar11/Resources/blob/master/IntroductionToCSharpAndDotNet.png?raw=true",
+    "description": "Introductory course on programming with C# and the .NET framework.",
+    "skills": ["C#", ".NET"],
+    "certificate_link": "https://github.com/arsalananwar11/Resources/blob/master/IntroductionToCSharpAndDotNet.png?raw=true"
+  },
+  {
+    "title": "MTA: Introduction to Programming Using JavaScript",
+    "imageSrc": "https://images.credly.com/size/680x680/images/bd6ef7f1-c3cf-4a64-b090-700812ecce14/MTA-Introduction-to-Programming-using-JavaScript-2019.png",
+    "description": "Earned Microsoft Technology Associate certification for JavaScript programming fundamentals.",
+    "skills": ["JavaScript", "Programming Fundamentals"],
+    "certificate_link": "https://www.credly.com/badges/0c37da9b-593a-4541-a654-b3df55a8bd4c/linked_in_profile"
+  },
+  {
+    "title": "Data Science in Real Life",
+    "imageSrc": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~2VHSK5BUCXEZ/CERTIFICATE_LANDING_PAGE~2VHSK5BUCXEZ.jpeg",
+    "description": "Explored practical applications of data science across industries.",
+    "skills": ["Applied Data Science"],
+    "certificate_link": "https://www.coursera.org/account/accomplishments/verify/2VHSK5BUCXEZ"
+  },
+  {
+    "title": "Interactivity with JavaScript",
+    "imageSrc": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~PDMXJ7W9TU6C/CERTIFICATE_LANDING_PAGE~PDMXJ7W9TU6C.jpeg",
+    "description": "Learned interactive features using JavaScript for web applications.",
+    "skills": ["JavaScript", "Front-End Development"],
+    "certificate_link": "https://www.coursera.org/account/accomplishments/verify/PDMXJ7W9TU6C"
+  },
+  {
+    "title": "Machine Learning",
+    "imageSrc": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~QNGWPQ93JGMM/CERTIFICATE_LANDING_PAGE~QNGWPQ93JGMM.jpeg",
+    "description": "Completed the foundational machine learning course by Stanford University on Coursera.",
+    "skills": ["Machine Learning", "Supervised Learning", "Unsupervised Learning"],
+    "certificate_link": "https://www.coursera.org/account/accomplishments/verify/QNGWPQ93JGMM"
+  },
+  {
+    "title": "Introduction to HTML5",
+    "imageSrc": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~3U3M75PCUR4B/CERTIFICATE_LANDING_PAGE~3U3M75PCUR4B.jpeg",
+    "description": "Gained essential HTML5 skills for structuring web content.",
+    "skills": ["HTML5", "Web Development"],
+    "certificate_link": "https://www.coursera.org/account/accomplishments/verify/3U3M75PCUR4B"
+  },
+  {
+    "title": "Building a Data Science Team",
+    "imageSrc": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~HP9XHQLND25G/CERTIFICATE_LANDING_PAGE~HP9XHQLND25G.jpeg",
+    "description": "Learned strategies for assembling and leading effective data science teams.",
+    "skills": ["Team Management", "Data Science Leadership"],
+    "certificate_link": "https://www.coursera.org/account/accomplishments/verify/HP9XHQLND25G"
+  },
+  {
+    "title": "Managing Data Analysis",
+    "imageSrc": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~F54SHQJKNBCW/CERTIFICATE_LANDING_PAGE~F54SHQJKNBCW.jpeg",
+    "description": "Focused on planning and managing data analysis projects.",
+    "skills": ["Data Analysis", "Project Management"],
+    "certificate_link": "https://www.coursera.org/account/accomplishments/verify/F54SHQJKNBCW"
+  },
+  {
+    "title": "Introduction to Web Development",
+    "imageSrc": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~TAY7L6Y8L2UE/CERTIFICATE_LANDING_PAGE~TAY7L6Y8L2UE.jpeg",
+    "description": "Covered the basics of web development including HTML, CSS, and JavaScript.",
+    "skills": ["Web Development", "HTML", "CSS", "JavaScript"],
+    "certificate_link": "https://www.coursera.org/account/accomplishments/verify/TAY7L6Y8L2UE"
+  },
+  {
+    "title": "A Crash Course in Data Science",
+    "imageSrc": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~GDA979R8V6Z3/CERTIFICATE_LANDING_PAGE~GDA979R8V6Z3.jpeg",
+    "description": "Overview of data science process and applications.",
+    "skills": ["Data Science", "Analytics"],
+    "certificate_link": "https://www.coursera.org/account/accomplishments/verify/GDA979R8V6Z3"
+  },
+  {
+    "title": "English for Business and Entrepreneurship",
+    "imageSrc": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~2VKQLWG2X6KR/CERTIFICATE_LANDING_PAGE~2VKQLWG2X6KR.jpeg",
+    "description": "Improved business communication and entrepreneurship vocabulary in English.",
+    "skills": ["Business Communication", "Entrepreneurship"],
+    "certificate_link": "https://www.coursera.org/account/accomplishments/verify/2VKQLWG2X6KR"
+  }
+]

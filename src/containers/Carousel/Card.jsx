@@ -13,11 +13,21 @@ const skillIconMap = skills.reduce((map, skill) => {
 export default function Card({ data }) {
   return (
     <div className={styles.container}>
+      {data.imageSrc?.toLowerCase().endsWith(".pdf") ? (
+      <iframe
+        src={getImageURL(data.imageSrc)}
+        title={`PDF of ${data.title}`}
+        className={styles.image}
+        style={{ height: "200px", width: "100%", border: "none" }}
+      />
+    ) : (
       <img
         src={getImageURL(data.imageSrc)}
         alt={`Image of ${data.title}`}
         className={styles.image}
       />
+    )}
+
       <h3 className={styles.title}>{data.title}</h3>
       <p className={styles.description}>{data.description}</p>
       <ul className={styles.skills}>
