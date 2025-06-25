@@ -5,10 +5,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: var(--space-3xl) var(--space-xl);
+    padding: var(--space-3xl) var(--space-3xl);
     margin: 0 auto;
-    margin-top: 80px;
-    max-width: 1400px;
+    margin-top: 70px;
+    max-width: 100%;
     min-height: 100vh;
     background: var(--gradient-hero);
     overflow: hidden;
@@ -30,23 +30,23 @@
     gap: var(--space-sm);
     background: var(--gradient-primary);
     color: white;
-    padding: var(--space-sm) var(--space-lg);
+    padding: var(--space-sm) var(--space-sm);
     border-radius: var(--radius-full);
     font-size: var(--text-sm);
     font-weight: var(--font-weight-semibold);
-    margin-bottom: var(--space-lg);
+    margin-bottom: var(--space-md);
     box-shadow: var(--shadow-data);
     animation: fadeIn 1s ease-out 0.2s both;
 }
 
 .badgeIcon {
-    font-size: var(--text-lg);
+    font-size: var(--text-md);
 }
 
 .title {
-    font-size: var(--text-5xl);
+    font-size: var(--text-3xl);
     font-weight: var(--font-weight-extrabold);
-    margin-bottom: var(--space-lg);
+    margin-bottom: var(--space-md);
     color: var(--color-text-primary);
     font-family: var(--font-heading);
     line-height: 1.1;
@@ -96,8 +96,8 @@
 
 .stats {
     display: flex;
-    gap: var(--space-xl);
-    margin: var(--space-xl) 0;
+    gap: var(--space-lg);
+    margin: var(--space-md) 0;
     opacity: 0;
     animation: fadeInUp 1s ease-out 1s forwards;
 }
@@ -132,7 +132,7 @@
     text-decoration: none;
     font-size: var(--text-lg);
     font-weight: var(--font-weight-semibold);
-    padding: var(--space-lg) var(--space-2xl);
+    padding: var(--space-sm) var(--space-lg);
     border-radius: var(--radius-full);
     transition: all var(--transition-normal);
     position: relative;
@@ -248,18 +248,18 @@
 }
 
 .summary {
-    font-size: var(--text-2xl);
+    font-size: var(--text-xl);
     font-family: var(--font-primary);
     font-weight: var(--font-weight-normal);
-    margin-bottom: var(--space-xl);
+    margin-bottom: var(--space-xs);
     color: var(--color-text-secondary);
-    line-height: 1.6;
+    line-height: 1.2;
     opacity: 0;
     animation: fadeIn 1s ease-out 0.6s forwards;
 }
 
 .additional {
-    font-size: var(--text-lg);
+    font-size: var(--text-md);
     color: var(--color-accent);
     font-weight: var(--font-weight-medium);
     margin-bottom: var(--space-xl);
@@ -285,7 +285,7 @@
     background: var(--gradient-primary);
     color: var(--color-btn-text);
     border-radius: var(--radius-full);
-    font-size: var(--text-lg);
+    font-size: var(--text-md);
     font-weight: var(--font-weight-semibold);
     padding: var(--space-lg) var(--space-2xl);
     transition: all var(--transition-normal);
@@ -455,4 +455,48 @@
         min-height: 300px;
         
     }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
