@@ -8,56 +8,90 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 30px;
-    z-index: 10; 
-    margin: 0;
-    /* background-color: var(--color-dark);  */
-    background: var(--color-dark);
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: var(--space-lg) var(--space-2xl);
+    z-index: 20; 
+    background: var(--color-bg-light);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--color-border);
+    box-shadow: var(--shadow-md);
+    transition: all var(--transition-normal);
 }
 
 .title {
-    font-size: 40px;
-    font-weight: 600;
+    font-size: var(--text-2xl);
+    font-weight: var(--font-weight-bold);
     text-decoration: none;
-    color: var(--color-dark-bg-text);
+    color: var(--color-text-primary);
     font-family: 'Dancing Script', cursive;
-    margin-left: 20px;
+    transition: color var(--transition-normal);
+}
+
+.title:hover {
+    color: var(--color-primary);
 }
 
 .menu {
     display: flex;
+    align-items: center;
 }
 
 .menuItems {
     display: flex;
-    gap: 45px;
+    gap: var(--space-xl);
     list-style: none;
+    align-items: center;
 }
 
 .menuItems a {
-    font-size: 25px;
-    color: var(--color-dark-bg-text);
+    font-size: var(--text-lg);
+    color: var(--color-text-secondary);
     text-decoration: none;
+    transition: color var(--transition-normal);
+}
+
+.menuItems a:hover {
+    color: var(--color-accent);
+}
+
+.menuBtn {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    transition: transform var(--transition-normal);
+}
+
+.menuBtn:hover {
+    transform: scale(1.1);
+}
+
+.menuBtn img {
+    width: 100%;
+    height: 100%;
+    filter: invert(1);
 }
 
 .icon {
     display: inline-block;
-    width: 40px; /* Adjust the size as needed */
+    width: 40px;
     height: 40px;
-    margin-left: 10px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-left: var(--space-md);
+    transition: transform var(--transition-normal), filter var(--transition-normal);
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .icon img {
     width: 100%;
     height: 100%;
-    border-radius: 50%;
+    object-fit: cover;
 }
 
 .icon:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+    filter: brightness(1.2);
 }
 
 @media screen and (max-width: 830px) {

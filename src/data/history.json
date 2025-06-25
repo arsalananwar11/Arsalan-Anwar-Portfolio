@@ -1,24 +1,74 @@
 [
-    {
-        "role": "Graduate Teaching Assistant",
-        "organization": "New York University",
-        "startDate": "Jan, 2024",
-        "endDate": "May, 2024",
-        "experiences": [
-            "Provided one-on-one and group mentoring to over 50 undergraduate students in Object-Oriented Programming (OOP), enhancing their proficiency in C++, Java, Unified Modeling Language, and OOP principles.",
-            "Graded assignments for 'Programming Tools for the Data Scientist,' delivering constructive feedback on Python, Regular Expressions, NumPy, SciPy, Pandas, and Data Visualization, which contributed to a 20% improvement in student grades."
-        ],
-        "imageSrc": "history/nyu.png"
-    },
-    {
-        "role": "Student Developer",
-        "organization": "Google Developer Student Club BVCOE",
-        "startDate": "Aug, 2021",
-        "endDate": "Jul, 2022",
-        "experiences": [
-            "Developed and launched a website for the Google Developer Club using the React.js framework, increasing club visibility and member engagement by 20-30%.",
-            "Organized key events in cloud computing, web, and Android development, including a virtual workshop with over 300 attendees focused on interactive tech learning."
-        ],
-        "imageSrc": "history/google_dev_club.png"
-    }
+  {
+    "role": "Data Scientist (Research Assistant)",
+    "organization": "New York University",
+    "startDate": "Jan, 2024",
+    "endDate": "Present",
+    "experiences": [
+      "Built NYU Mate, a GenAI academic assistant using LLaMA 2 and LangChain-based RAG pipeline, improving student support satisfaction by 18%.",
+      "Developed retrieval-augmented search over NYU’s academic and policy documents, achieving over 92% accuracy in answer relevancy.",
+      "Collaborated with university departments and implemented scalable backend with FastAPI and vector search (FAISS), reducing student query response time by 65%."
+    ],
+    "imageSrc": "history/nyu.png"
+  },
+  {
+    "role": "Data Science Intern",
+    "organization": "Medidata Solutions",
+    "startDate": "May, 2024",
+    "endDate": "Aug, 2024",
+    "experiences": [
+      "Integrated advanced NLP pipelines into clinical trial workflows, reducing protocol setup time by 45% across oncology studies.",
+      "Engineered transformers-based text classification models (SciBERT, ClinicalBERT) to extract protocol metadata with 93% precision.",
+      "Collaborated with the GenAI and platform teams to deploy modular ML components with MLflow and Docker for real-time API access."
+    ],
+    "imageSrc": "history/medidata.png"
+  },
+  {
+    "role": "Data Scientist",
+    "organization": "Course5 Intelligence",
+    "startDate": "Feb, 2023",
+    "endDate": "Aug, 2023",
+    "experiences": [
+      "Built Apriori-based Market Basket Model to drive upsell strategies for a Fortune 500 client, boosting revenue opportunity identification by 26%.",
+      "Developed high-value customer segmentation using clustering and purchase behavior, achieving 94% targeting accuracy.",
+      "Led insights automation pipeline development for weekly business reporting, reducing manual workload by 80%."
+    ],
+    "imageSrc": "history/course5.png"
+  },
+  {
+    "role": "Data Scientist",
+    "organization": "West Pharmaceutical Services",
+    "startDate": "Jul, 2021",
+    "endDate": "Feb, 2023",
+    "experiences": [
+      "Deployed real-time computer vision models (YOLOv5) to detect cosmetic defects in syringe products, increasing inspection accuracy to 92%.",
+      "Automated root-cause defect analysis using time-series clustering, reducing quality investigation time by 40%.",
+      "Collaborated with manufacturing teams across 3 continents, aligning ML solutions with FDA and ISO 13485 compliance."
+    ],
+    "imageSrc": "history/west.png"
+  },
+  {
+    "role": "Associate Data Scientist",
+    "organization": "West Pharmaceutical Services",
+    "startDate": "Jan, 2021",
+    "endDate": "Jul, 2021",
+    "experiences": [
+      "Developed NLP-based document parsing system for FDA guideline documents, improving keyword mapping and retrieval accuracy by 23%.",
+      "Built pipeline for compliance audit risk scoring using logistic regression and topic modeling, reducing audit effort by 18%.",
+      "Used Azure ML Studio for model deployment in GxP environments, ensuring reproducibility and traceability in production pipelines."
+    ],
+    "imageSrc": "history/west.png"
+  },
+  {
+    "role": "Graduate Software Trainee",
+    "organization": "West Pharmaceutical Services",
+    "startDate": "Jul, 2020",
+    "endDate": "Jan, 2021",
+    "experiences": [
+      "Engineered image classification pipeline for particulate detection in injectables using Azure ML, achieving 97% accuracy.",
+      "Implemented batch scoring services in Python with REST APIs, improving system scalability across 4 production lines.",
+      "Documented model interpretability workflows using SHAP to meet regulatory transparency standards."
+    ],
+    "imageSrc": "history/west.png"
+  }
 ]

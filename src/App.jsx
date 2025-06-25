@@ -16,8 +16,8 @@ export default function App() {
       <Summary />
       <TechStack />
       <Projects />
-      {/* <Experience />
-      <Certification /> */}
+      <Experience />
+      <Certification />
       <Contact />
     </div>
   );

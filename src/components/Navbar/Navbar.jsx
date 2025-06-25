@@ -21,16 +21,24 @@ export default function Navbar() {
             />
            <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
            onClick={() => setMenuOpen(!menuOpen) }>
-                
+                <li>
+                    <a href="#summary">Home</a>
+                </li>
+                <li>
+                    <a href="#techstack">Skills</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
                 <li>
                 <a className={styles.icon} href='https://www.linkedin.com/in/arsalan-anwar-ai/' target='blank'><img src={getImageURL("contact/linkedinIcon.png")} alt="LinkedIn" /></a>
                 </li>
                 <li>
                 <a className={styles.icon} href='https://github.com/arsalananwar11' target='blank'><img src={getImageURL("contact/githubIcon.png")} alt="GitHub" /></a>
                 </li>
-                {/* <li>
-                <a className={styles.icon} href='https://leetcode.com/u/arsalananwar11/' target='blank'><img src={getImageURL("contact/leetcodeIcon.png")} alt="Leetcode" /></a>
-                </li> */}
            </ul>
         </div> 
     </nav>
