@@ -12,7 +12,7 @@ export default function TechStack() {
       if (movingCardsRef.current){
         movingCardsRef.current.scrollLeft += 1;
       }
-    }, );
+    }, 50);
 
     return () => clearInterval(interval);
   }, []);

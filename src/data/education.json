@@ -1,0 +1,37 @@
+[
+  {
+    "degree": "Master of Science in Computer Science",
+    "institution": "New York University",
+    "location": "New York, NY",
+    "duration": "2023 - 2025",
+    "gpa": "3.85/4.0",
+    "relevantCoursework": [
+      "Machine Learning",
+      "Deep Learning",
+      "Natural Language Processing",
+      "Computer Vision", 
+      "Data Science",
+      "Big Data Analytics",
+      "Software Engineering"
+    ],
+    "imageSrc": "education/nyu.png",
+    "description": "Specialized in AI/ML with focus on data science applications and software engineering practices."
+  },
+  {
+    "degree": "Bachelor of Technology in Computer Science",
+    "institution": "Bangalore Institute of Technology",
+    "location": "Bangalore, India",
+    "duration": "2016 - 2020",
+    "gpa": "8.88/10.0",
+    "relevantCoursework": [
+      "Data Structures & Algorithms",
+      "Database Management Systems",
+      "Software Engineering",
+      "Computer Networks",
+      "Operating Systems",
+      "Statistics & Probability"
+    ],
+    "imageSrc": "education/bit.png",
+    "description": "Foundation in computer science with strong emphasis on programming and software development."
+  }
+]

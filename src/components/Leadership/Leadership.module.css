@@ -1,0 +1,332 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text-primary);
+  margin: var(--space-3xl) auto;
+  max-width: 1400px;
+  padding: var(--space-xl);
+  position: relative;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: var(--space-3xl);
+  position: relative;
+  z-index: 2;
+}
+
+.title {
+  color: var(--color-primary);
+  font-size: var(--text-4xl);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--space-lg);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: fadeIn 1s ease-out;
+}
+
+.subtitle {
+  font-size: var(--text-lg);
+  color: var(--color-text-secondary);
+  font-style: italic;
+  max-width: 600px;
+  margin: 0 auto;
+  animation: fadeIn 1s ease-out 0.3s both;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: var(--space-2xl);
+  position: relative;
+  z-index: 2;
+}
+
+.flipCard {
+  background-color: transparent;
+  width: 100%;
+  height: 400px;
+  perspective: 1000px;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.flipCardInner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+.flipCard:hover .flipCardInner {
+  transform: rotateY(180deg);
+}
+
+.flipCardFront, .flipCardBack {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+}
+
+.flipCardFront {
+  background: white;
+  border: 1px solid var(--color-border);
+}
+
+.flipCardBack {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%);
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-xl);
+}
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-normal);
+}
+
+.flipCard:hover .image {
+  transform: scale(1.05);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.6) 50%,
+    transparent 100%
+  );
+  color: white;
+  padding: var(--space-xl);
+  transform: translateY(20px);
+  transition: transform var(--transition-normal);
+}
+
+.flipCard:hover .overlay {
+  transform: translateY(0);
+}
+
+.caption {
+  text-align: left;
+}
+
+.cardTitle {
+  font-size: var(--text-xl);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--space-sm);
+  color: white;
+}
+
+.organization {
+  font-size: var(--text-base);
+  font-weight: var(--font-weight-medium);
+  margin-bottom: var(--space-xs);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.period {
+  font-size: var(--text-sm);
+  font-weight: var(--font-weight-medium);
+  color: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.2);
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--radius-full);
+  display: inline-block;
+}
+
+.backContent {
+  text-align: left;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.backHeader {
+  margin-bottom: var(--space-lg);
+}
+
+.backTitle {
+  font-size: var(--text-xl);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--space-xs);
+  color: white;
+}
+
+.backOrganization {
+  font-size: var(--text-base);
+  font-weight: var(--font-weight-medium);
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0;
+}
+
+.description {
+  font-size: var(--text-base);
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.95);
+  margin-bottom: var(--space-lg);
+  flex: 1;
+}
+
+.skills {
+  margin-bottom: var(--space-lg);
+}
+
+.skillsTitle {
+  font-size: var(--text-base);
+  font-weight: var(--font-weight-semibold);
+  color: white;
+  margin-bottom: var(--space-sm);
+}
+
+.skillsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+}
+
+.skill {
+  font-size: var(--text-xs);
+  font-weight: var(--font-weight-medium);
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--radius-full);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  transition: all var(--transition-normal);
+}
+
+.skill:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+/* Animation keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Add staggered animation delay */
+.flipCard:nth-child(1) { animation-delay: 0.1s; }
+.flipCard:nth-child(2) { animation-delay: 0.2s; }
+.flipCard:nth-child(3) { animation-delay: 0.3s; }
+.flipCard:nth-child(4) { animation-delay: 0.4s; }
+.flipCard:nth-child(5) { animation-delay: 0.5s; }
+.flipCard:nth-child(6) { animation-delay: 0.6s; }
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: var(--space-lg);
+    margin: var(--space-2xl) auto;
+  }
+
+  .title {
+    font-size: var(--text-3xl);
+    margin-bottom: var(--space-md);
+  }
+
+  .subtitle {
+    font-size: var(--text-base);
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+
+  .flipCard {
+    height: 350px;
+  }
+
+  .flipCardBack {
+    padding: var(--space-lg);
+  }
+
+  .cardTitle {
+    font-size: var(--text-lg);
+  }
+
+  .backTitle {
+    font-size: var(--text-lg);
+  }
+
+  .description {
+    font-size: var(--text-sm);
+  }
+
+  .overlay {
+    padding: var(--space-lg);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .flipCard {
+    height: 300px;
+  }
+
+  .flipCardBack {
+    padding: var(--space-md);
+  }
+
+  .cardTitle, .backTitle {
+    font-size: var(--text-base);
+  }
+
+  .organization, .backOrganization {
+    font-size: var(--text-sm);
+  }
+
+  .description {
+    font-size: var(--text-xs);
+  }
+
+  .skill {
+    font-size: 0.7rem;
+    padding: 2px 6px;
+  }
+}
