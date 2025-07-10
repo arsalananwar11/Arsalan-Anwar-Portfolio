@@ -165,7 +165,7 @@
 .organization {
     font-size: var(--text-lg);
     font-weight: var(--font-weight-semibold);
-    color: var(--color-primary);
+    color: var(--color-text-secondary);
     margin-bottom: var(--space-sm);
 }
 

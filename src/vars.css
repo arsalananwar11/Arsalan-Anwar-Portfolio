@@ -1,11 +1,11 @@
 :root {
     /*Elegant Data Science Color Palette*/
-    --color-primary: #4F46E5; /* Elegant indigo */
-    --color-primary-light: #6366F1; /* Light indigo */
-    --color-primary-dark: #3730A3; /* Dark indigo */
+    --color-primary: #0ea5e9; /* Elegant indigo */
+    --color-primary-light: #74cbf3; /* Light indigo */
+    --color-primary-dark: #076d9c; /* Dark indigo */
     --color-secondary: #F8F9FB; /* Ultra light background */
     --color-secondary-light: #F1F3F6;
-    --color-accent: #b30303; /* Refined cyan accent */
+    --color-accent: #076d9c; /* Refined cyan accent */
     --color-accent-light: #e2b7b7;
     --color-success: #059669; /* Professional emerald */
     --color-warning: #D97706; /* Warm amber for highlights */
@@ -18,9 +18,9 @@
     --color-bg-section: #F1F3F6; /* Subtle section backgrounds */
     
     /* Text Colors */
-    --color-text-primary: #1e293b; /* Dark slate for primary text */
+    --color-text-primary: #1c54ad; /* Dark slate for primary text */
     --color-text-secondary: #475569; /* Medium gray */
-    --color-text-muted: #64748b; /* Muted gray */
+    --color-text-muted: #4d4f50; /* Muted gray */
     --color-text-light: #ffffff; /* White text on dark backgrounds */
     
     /* Button Colors */
@@ -46,6 +46,7 @@
     --gradient-secondary: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
     --gradient-accent: linear-gradient(135deg, #0ea5e9 0%, #38bdf8 100%);
     --gradient-hero: linear-gradient(135deg, #f8fafc 0%, #e0f2fe 50%, #f8fafc 100%);
+    --gradient-skill: linear-gradient(135deg, #ddebf8 0%, #cbe0ef 50%, #ddebf8 100%);
     --gradient-data: linear-gradient(135deg, #2563eb 0%, #1d4ed8 25%, #0ea5e9 75%, #38bdf8 100%);
     
     /* Typography */

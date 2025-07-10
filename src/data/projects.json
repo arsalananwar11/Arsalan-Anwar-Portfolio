@@ -2,7 +2,7 @@
   {
     "title": "Inquis AI",
     "imageSrc": "projects/project.png",
-    "description": "[IN PROGRESS] A unified AI assistant and content management system that significantly improved student engagement and learning efficiency by 21% through an integrated front-end and scalable back-end built with Flask and Firebase.",
+    "description": "A unified AI assistant and content management system that significantly improved student engagement and learning efficiency by 21% through an integrated front-end and scalable back-end built with Flask and Firebase.",
     "skills": ["Flask", "Firebase", "Azure DevOps", "Pinecone", "LangChain", "Hugging Face", "Retreival Augmented Generation (RAG)"],
     "demo":"https://www.inquis-ai.com/"
   },

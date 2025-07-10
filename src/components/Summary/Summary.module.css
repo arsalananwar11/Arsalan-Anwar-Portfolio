@@ -7,7 +7,7 @@
     justify-content: space-between;
     padding: var(--space-3xl) var(--space-3xl);
     margin: 0 auto;
-    margin-top: 70px;
+    margin-top: 25px;
     max-width: 100%;
     min-height: 100vh;
     background: var(--gradient-hero);
@@ -68,7 +68,7 @@
 .quote {
     font-size: var(--text-lg);
     font-style: italic;
-    color: var(--color-primary);
+    color: var(--color-text-primary);
     margin: var(--space-lg) 0;
     padding: var(--space-lg);
     background: rgba(37, 99, 235, 0.05);
@@ -81,13 +81,13 @@
 
 .quoteIcon {
     font-size: var(--text-2xl);
-    color: var(--color-primary);
+    color: var(--color-text-primary);
     font-weight: var(--font-weight-bold);
 }
 
 .quoteAuthor {
     font-size: var(--text-sm);
-    color: var(--color-text-muted);
+    color: var(--color-text-primary);
     font-style: normal;
     font-weight: var(--font-weight-medium);
     margin-top: var(--space-xs);
@@ -240,7 +240,7 @@
 .headline {
     font-size: var(--text-xl);
     font-weight: var(--font-weight-medium);
-    color: var(--color-text-secondary);
+    color: var(--color-text-primary);
     margin-bottom: var(--space-lg);
     font-style: italic;
     opacity: 0;
