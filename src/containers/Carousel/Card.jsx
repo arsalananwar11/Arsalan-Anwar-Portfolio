@@ -33,7 +33,7 @@ export default function Card({ data }) {
       <ul className={styles.skills}>
         {data.skills.map((skill, id) => (
           <li key={id} className={styles.skill}>
-            <img src={getImageURL(skillIconMap[skill] || defaultIcon)} alt={skill} className={styles.skillIcon} />
+            {/* <img src={getImageURL(skillIconMap[skill] || defaultIcon)} alt={skill} className={styles.skillIcon} /> */}
             {skill}
           </li>
         ))}

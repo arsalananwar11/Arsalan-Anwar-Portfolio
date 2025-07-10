@@ -6,10 +6,16 @@ export default function Summary() {
   return (
     <section className={styles.container} id="summary">
       <div className={styles.content}>
-        <div className={styles.badge}>
-          <span className={styles.badgeIcon}>🚀</span>
-          Data Science & AI Innovation
-        </div>
+        {/* <div className={styles.BtnsContainer}>
+          <div className={styles.badge}>
+            <span className={styles.badgeIcon}>🚀</span>
+            Data Science & AI Innovation
+          </div>
+          <div className={styles.badge}>
+            <span className={styles.badgeIcon}>🚀</span>
+            Data Science & AI Innovation
+          </div>
+        </div> */}
         <div className={styles.quote}>
           <span className={styles.quoteIcon}>"</span>
           95% of Executives Say Data Drives Business Strategy — So I Build Solutions That Matter
