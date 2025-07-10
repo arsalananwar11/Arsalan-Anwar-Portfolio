@@ -25,7 +25,7 @@
 
 .header {
     text-align: center;
-    margin-bottom: var(--space-3xl);
+    margin-bottom: var(--space-xl);
     position: relative;
     z-index: 2;
 }
@@ -244,14 +244,14 @@
 .experienceCard:nth-child(3) { animation-delay: 0.3s; }
 .experienceCard:nth-child(4) { animation-delay: 0.4s; }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 830px) {
   .content {
       min-width: 240px;
   }
 
   .title {
       font-size: 28px;
-      margin-bottom: 30px;
+      margin-bottom: 10px;
   }
 
   .header {

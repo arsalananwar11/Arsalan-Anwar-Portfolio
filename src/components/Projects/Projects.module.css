@@ -2,9 +2,9 @@
 
 .container {
   color: var(--color-text-primary);
-  margin: var(--space-3xl) auto;
+  margin: var(--space-xl) auto;
   max-width: 1400px;
-  padding: var(--space-xl);
+  /* padding: var(--space-xl); */
 }
 
 .title {
@@ -12,7 +12,7 @@
   font-size: var(--text-4xl);
   font-weight: var(--font-weight-bold);
   text-align: center;
-  margin-bottom: var(--space-2xl);
+  margin-bottom: var(--space-sm);
   animation: fadeIn 1s ease-out;
   background: var(--gradient-primary);
   background-clip: text;
@@ -27,15 +27,14 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 830px) {
   .container {
-    margin-top: 40px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-top: 0px;
+    padding: 10px 8px;
   }
 
   .title {
     font-size: 28px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 }

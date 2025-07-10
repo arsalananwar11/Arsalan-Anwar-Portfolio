@@ -259,7 +259,7 @@
 .flipCard:nth-child(6) { animation-delay: 0.6s; }
 
 /* Responsive Design */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 830px) {
   .container {
     padding: var(--space-lg);
     margin: var(--space-2xl) auto;
