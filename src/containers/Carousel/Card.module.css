@@ -113,7 +113,7 @@
   box-shadow: var(--shadow-lg);
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 830px) {
   .container {
     padding: 16px 20px;
     max-width: 100%;

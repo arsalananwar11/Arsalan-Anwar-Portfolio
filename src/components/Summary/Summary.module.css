@@ -392,8 +392,8 @@
     .container {
         flex-direction: column-reverse;
         text-align: center;
-        padding-bottom: 0px; /* Adjusted for smaller screens */
-        margin-top: 80px;
+        padding-bottom: 15px; /* Adjusted for smaller screens */
+        margin-top: 60px;
         justify-content: center;
     }
 
@@ -402,21 +402,20 @@
     }
 
     .summary {
-        font-size: 30px;
-        margin-bottom: 10px;
-        margin-top: 20px;
+        font-size: 20px;
+        margin: 20px 10px;
     }
 
     .title {
-        font-size: 32px;
+        font-size: 30px;
         margin-top: 20px;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
 
     .headline {
-        font-size: 20px; 
+        font-size: 24px; 
         font-style: italic; 
-        color: #656464; 
+        color: var(--color-primary); 
         margin-bottom: 0px;
     }
 
@@ -428,6 +427,7 @@
         flex-direction: row;
         align-items: center;
         margin: 0;
+        gap: var(--space-sm);
     }
 
     .Btns {
@@ -443,17 +443,24 @@
     }
 
     .summaryImg {
-        width: 70%;
+        width: 120%;
+        height: 40%;
         margin-left: 0;
-        margin-bottom: 15px;
+        margin-bottom: 0px;
     }
+
     .bottomBlur {
-        
         width: 30vw;
         height: 30vh;
         min-width: 300px;
         min-height: 300px;
         
+    }
+
+    .primaryBtn, .secondaryBtn {
+        font-size: var(--text-sm);
+        padding: var(--space-sm) var(--space-lg);
+        border-radius: var(--radius-2xl);
     }
 }
 

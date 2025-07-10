@@ -55,7 +55,8 @@
 }
 
 .card {
-  background-color: var(--color-dark);
+  /* background-color: var(--color-dark); */
+  background-color: var(--color-soft);
   border-radius: 15px;
   padding: 20px;
   text-align: center;
@@ -75,10 +76,10 @@
   font-weight: 700;
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 830px) {
   .container {
     padding: 30px;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 10px;
   }
 
