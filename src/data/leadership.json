@@ -27,7 +27,7 @@
     "caption": "Lecturing at NYU Courant on AI/Data Science",
     "description": "Designed and delivered graduate-level lectures and labs in data science, fostering academic rigor and practical learning.",
     "skills": ["Graduate Teaching", "Curriculum Design", "Academic Mentorship", "Instruction"],
-    "group": "Teaching"
+    "group": "Teaching and Academia"
   },
   {
     "title": "Speaker: AI/ML and its Applications",
@@ -37,7 +37,7 @@
     "caption": "Spreading awareness of AI/ML to undergraduates",
     "description": "Spoke to 100+ undergraduates about real-world AI/ML use cases, inspiring exploration in applied machine learning.",
     "skills": ["Guest Lecturing", "Mentorship", "ML Applications", "Education"],
-    "group": "Speaking"
+    "group": "Presentations"
   },
   {
     "title": "Core Committee Member",
@@ -57,17 +57,7 @@
     "caption": "Teaching data science fundamentals to working professionals",
     "description": "Taught hands-on data science and SQL concepts to 300+ learners across diverse backgrounds through live sessions.",
     "skills": ["Instruction", "SQL", "Data Science", "Curriculum Delivery"],
-    "group": "Teaching"
-  },
-  {
-    "title": "Speaker: Image Classification with Azure ML",
-    "organization": "Microsoft User Group Hyderabad",
-    "period": "2022",
-    "image": ["leadership/mugh_speaker_aiml_1.png"],
-    "caption": "Presented on Image Classification with Azure ML",
-    "description": "Conducted a technical session on deploying image classification models using Azure ML, engaging with a broad developer audience.",
-    "skills": ["Public Speaking", "Computer Vision", "Azure ML", "Community Engagement"],
-    "group": "Speaking"
+    "group": "Teaching and Academia"
   },
   {
     "title": "Speaker: ChatGPT & In-Demand AI Skills",
@@ -77,7 +67,7 @@
     "caption": "Discussing ChatGPT's impact on modern tech careers",
     "description": "Explained ChatGPT’s rise and its potential for transforming careers, research, and productivity in AI domains.",
     "skills": ["Public Speaking", "Generative AI", "Career Guidance", "Education"],
-    "group": "Speaking"
+    "group": "Presentations"
   },
   {
     "title": "Speaker: ChatGPT for Research and Innovation",
@@ -87,7 +77,7 @@
     "caption": "Exploring ChatGPT’s role in academic research",
     "description": "Highlighted the role of ChatGPT in accelerating innovation and enabling new research paradigms in AI.",
     "skills": ["Public Speaking", "AI Tools", "Research Applications", "Mentoring"],
-    "group": "Speaking"
+    "group": "Presentations"
   },
   {
     "title": "Founder & Researcher",
@@ -107,9 +97,9 @@
     "caption": "Publishing practical AI/ML tutorials and guides",
     "description": "Authored articles on Reinforcement Learning and ROS, gaining thousands of reads and helping early-career ML enthusiasts.",
     "skills": ["Technical Writing", "Tutorial Development", "ML Education", "ROS"],
-    "group": "Writing"
+    "group": "Community Leadership"
   },
-    {
+  {
     "title": "Speaker: A General Introduction to Data Science and Machine Learning",
     "organization": "West Pharmaceutical Services",
     "period": "2022",
@@ -117,6 +107,16 @@
     "caption": "Educating internal data science communities",
     "description": "Delivered an internal talk to West teams, simplifying key ML concepts and bridging knowledge gaps across departments.",
     "skills": ["Data Science Education", "Public Speaking", "Cross-functional Communication", "Leadership"],
-    "group": "Speaking"
+    "group": "Presentations"
+  },
+  {
+    "title": "Speaker: Image Classification with Azure ML",
+    "organization": "Microsoft User Group Hyderabad",
+    "period": "Nov 2020",
+    "image": ["leadership/mugh_speaker_aiml_1.png"],
+    "caption": "Presented on Image Classification with Azure ML",
+    "description": "Conducted a technical session on deploying image classification models using Azure ML, engaging with a broad developer audience.",
+    "skills": ["Public Speaking", "Computer Vision", "Azure ML", "Community Engagement"],
+    "group": "Presentations"
   }
 ]
