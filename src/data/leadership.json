@@ -1,89 +1,89 @@
 [
   {
-    "title": "Speaker: Image Classification with Azure ML",
-    "organization": "Microsoft User Group Hyderabad",
-    "period": "2022",
-    "image": ["leadership/azure-ml-seminar.jpg", "leadership/knowledge-exchange.jpg"],
-    "caption": "Presented on Image Classification with Azure ML",
-    "description": "Conducted a technical session on deploying image classification models using Azure ML, engaging with a broad developer audience.",
-    "skills": ["Public Speaking", "Computer Vision", "Azure ML", "Community Engagement"],
-    "group": "Speaking"
+    "title": "Judge: NYU 51st Undergraduate Research Conference",
+    "organization": "New York University",
+    "period": "May 2025",
+    "image": ["leadership/nyu_51_urc_1.png", "leadership/nyu_51_urc_2.png", "leadership/nyu_51_urc_3.png", "leadership/nyu_51_urc_4.png"],
+    "caption": "Judging exceptional student research at NYU URC",
+    "description": "Served as a judge for Panel 18 at NYU's 51st URC, evaluating interdisciplinary research in neuroscience, data science, and climate innovation.",
+    "skills": ["Academic Leadership", "Research Evaluation", "Mentorship", "Interdisciplinary Thinking"],
+    "group": "Judging Panel"
   },
   {
-    "title": "Speaker: A General Introduction to Data Science and Machine Learning",
-    "organization": "West Pharmaceutical Services",
-    "period": "2022",
-    "image": ["leadership/knowledge-exchange.jpg"],
-    "caption": "Educating internal data science communities",
-    "description": "Delivered an internal talk to West teams, simplifying key ML concepts and bridging knowledge gaps across departments.",
-    "skills": ["Data Science Education", "Public Speaking", "Cross-functional Communication", "Leadership"],
-    "group": "Speaking"
-  },
-  {
-    "title": "Speaker: AI/ML and its Applications",
-    "organization": "Bangalore Institute of Technology",
-    "period": "2021",
-    "image": ["leadership/speaker_aiml_applications_bit.jpeg"],
-    "caption": "Spreading awareness of AI/ML to undergraduates",
-    "description": "Spoke to 100+ undergraduates about real-world AI/ML use cases, inspiring exploration in applied machine learning.",
-    "skills": ["Guest Lecturing", "Mentorship", "ML Applications", "Education"],
-    "group": "Speaking"
-  },
-  {
-    "title": "Speaker: ChatGPT & In-Demand AI Skills",
-    "organization": "UpGrad",
-    "period": "May 2023",
-    "image": ["leadership/chatgpt-upgrad.jpg"],
-    "caption": "Discussing ChatGPT's impact on modern tech careers",
-    "description": "Explained ChatGPT’s rise and its potential for transforming careers, research, and productivity in AI domains.",
-    "skills": ["Public Speaking", "Generative AI", "Career Guidance", "Education"],
-    "group": "Speaking"
-  },
-  {
-    "title": "Speaker: ChatGPT for Research and Innovation",
-    "organization": "UpGrad",
-    "period": "May 2023",
-    "image": ["leadership/chatgpt-upgrad.jpg"],
-    "caption": "Exploring ChatGPT’s role in academic research",
-    "description": "Highlighted the role of ChatGPT in accelerating innovation and enabling new research paradigms in AI.",
-    "skills": ["Public Speaking", "AI Tools", "Research Applications", "Mentoring"],
-    "group": "Speaking"
-  },
-  {
-    "title": "Adjunct Faculty: Data Science and SQL",
-    "organization": "Intellipaat",
-    "period": "Jan 2023 - Aug 2023",
-    "image": ["leadership/intellipaat.jpg"],
-    "caption": "Teaching data science fundamentals to working professionals",
-    "description": "Taught hands-on data science and SQL concepts to 300+ learners across diverse backgrounds through live sessions.",
-    "skills": ["Instruction", "SQL", "Data Science", "Curriculum Delivery"],
-    "group": "Teaching"
+    "title": "Judge: NYU 50th Undergraduate Research Conference",
+    "organization": "New York University",
+    "period": "May 2024",
+    "image": ["leadership/nyu_50_urc_1.jpeg", "leadership/nyu_50_urc_2.jpeg", "leadership/nyu_50_urc_3.jpeg", "leadership/nyu_50_urc_4.jpeg", "leadership/nyu_50_urc_5.png"],
+    "caption": "Supporting the next generation of researchers",
+    "description": "Evaluated student research in Poster Group 11 (Computer Science), providing feedback and engaging in discussions across diverse STEM fields.",
+    "skills": ["Academic Leadership", "Research Communication", "STEM Engagement", "Mentoring"],
+    "group": "Judging Panel"
   },
   {
     "title": "Graduate Adjunct Faculty, Dept. of CS",
     "organization": "New York University, Courant Institute",
     "period": "Jan 2024 - May 2025",
-    "image": ["leadership/nyu-faculty.jpg"],
+    "image": ["leadership/nyu_adj_faculty_1.png", "leadership/nyu_adj_faculty_2.png", "leadership/nyu_adj_faculty_3.png", "leadership/nyu_adj_faculty_4.png", "leadership/nyu_adj_faculty_5.png"],
     "caption": "Lecturing at NYU Courant on AI/Data Science",
     "description": "Designed and delivered graduate-level lectures and labs in data science, fostering academic rigor and practical learning.",
     "skills": ["Graduate Teaching", "Curriculum Design", "Academic Mentorship", "Instruction"],
-    "group": "Teaching"
+    "group": "Teaching and Academia"
+  },
+  {
+    "title": "Speaker: AI/ML and its Applications",
+    "organization": "Bangalore Institute of Technology",
+    "period": "2021",
+    "image": ["leadership/bit_speaker_aiml_applications_1.jpeg", "leadership/bit_speaker_aiml_applications_2.png", "leadership/bit_speaker_aiml_applications_3.jpeg", "leadership/bit_speaker_aiml_applications_4.jpeg", "leadership/bit_speaker_aiml_applications_5.jpeg"],
+    "caption": "Spreading awareness of AI/ML to undergraduates",
+    "description": "Spoke to 100+ undergraduates about real-world AI/ML use cases, inspiring exploration in applied machine learning.",
+    "skills": ["Guest Lecturing", "Mentorship", "ML Applications", "Education"],
+    "group": "Presentations"
   },
   {
     "title": "Core Committee Member",
     "organization": "Kannada Samskruti Club",
     "period": "2018 - 2020",
-    "image": ["leadership/cultural-club.jpg"],
+    "image": ["leadership/samskruthi_1.jpg", "leadership/samskruthi_2.jpg", "leadership/samskruthi_3.jpg", "leadership/samskruthi_4.jpg", "leadership/samskruthi_5.jpg", "leadership/samskruthi_6.jpg", "leadership/samskruthi_7.jpg", "leadership/samskruthi_8.jpg", "leadership/samskruthi_9.jpg"],
     "caption": "Organizing cultural initiatives and community events",
     "description": "Led cultural programs, coordinated events, and promoted language-based inclusion for 500+ students.",
     "skills": ["Leadership", "Event Coordination", "Community Building", "Teamwork"],
     "group": "Cultural Leadership"
   },
   {
+    "title": "Adjunct Faculty: Data Science and SQL",
+    "organization": "Intellipaat",
+    "period": "Jan 2023 - Aug 2023",
+    "image": ["leadership/intellipaat_course_1.png"],
+    "caption": "Teaching data science fundamentals to working professionals",
+    "description": "Taught hands-on data science and SQL concepts to 300+ learners across diverse backgrounds through live sessions.",
+    "skills": ["Instruction", "SQL", "Data Science", "Curriculum Delivery"],
+    "group": "Teaching and Academia"
+  },
+  {
+    "title": "Speaker: ChatGPT & In-Demand AI Skills",
+    "organization": "UpGrad",
+    "period": "May 2023",
+    "image": ["leadership/upgrad_webinar_1.png"],
+    "caption": "Discussing ChatGPT's impact on modern tech careers",
+    "description": "Explained ChatGPT’s rise and its potential for transforming careers, research, and productivity in AI domains.",
+    "skills": ["Public Speaking", "Generative AI", "Career Guidance", "Education"],
+    "group": "Presentations"
+  },
+  {
+    "title": "Speaker: ChatGPT for Research and Innovation",
+    "organization": "UpGrad",
+    "period": "May 2023",
+    "image": ["leadership/upgrad_webinar_2.png"],
+    "caption": "Exploring ChatGPT’s role in academic research",
+    "description": "Highlighted the role of ChatGPT in accelerating innovation and enabling new research paradigms in AI.",
+    "skills": ["Public Speaking", "AI Tools", "Research Applications", "Mentoring"],
+    "group": "Presentations"
+  },
+  {
     "title": "Founder & Researcher",
     "organization": "Data Science Crew",
     "period": "Sept 2020 - Present",
-    "image": ["leadership/data-science-crew.jpg"],
+    "image": ["leadership/data_science_crew_1.png"],
     "caption": "Fostering a global learning community in data science",
     "description": "Founded and scaled a 1,000+ member global community for learning and sharing knowledge in AI/ML domains.",
     "skills": ["Community Building", "Leadership", "Technical Mentoring", "Content Strategy"],
@@ -93,30 +93,30 @@
     "title": "Author (The Startup & Analytics Vidhya)",
     "organization": "Medium",
     "period": "2020 - Present",
-    "image": ["leadership/tech-author.jpg"],
+    "image": ["leadership/medium_author_1.png"],
     "caption": "Publishing practical AI/ML tutorials and guides",
     "description": "Authored articles on Reinforcement Learning and ROS, gaining thousands of reads and helping early-career ML enthusiasts.",
     "skills": ["Technical Writing", "Tutorial Development", "ML Education", "ROS"],
-    "group": "Writing"
+    "group": "Community Leadership"
   },
   {
-    "title": "Judge: NYU 51st Undergraduate Research Conference",
-    "organization": "New York University",
-    "period": "May 2025",
-    "image": ["leadership/nyu-urc-51.jpg"],
-    "caption": "Judging exceptional student research at NYU URC",
-    "description": "Served as a judge for Panel 18 at NYU's 51st URC, evaluating interdisciplinary research in neuroscience, data science, and climate innovation.",
-    "skills": ["Academic Leadership", "Research Evaluation", "Mentorship", "Interdisciplinary Thinking"],
-    "group": "Academic Leadership"
+    "title": "Speaker: A General Introduction to Data Science and Machine Learning",
+    "organization": "West Pharmaceutical Services",
+    "period": "2022",
+    "image": ["leadership/knowledge-exchange.jpg", "leadership/speaker_aiml_applications_bit.jpeg"],
+    "caption": "Educating internal data science communities",
+    "description": "Delivered an internal talk to West teams, simplifying key ML concepts and bridging knowledge gaps across departments.",
+    "skills": ["Data Science Education", "Public Speaking", "Cross-functional Communication", "Leadership"],
+    "group": "Presentations"
   },
   {
-    "title": "Judge: NYU 50th Undergraduate Research Conference",
-    "organization": "New York University",
-    "period": "May 2024",
-    "image": ["leadership/nyu-urc-50.jpg"],
-    "caption": "Supporting the next generation of researchers",
-    "description": "Evaluated student research in Poster Group 11 (Computer Science), providing feedback and engaging in discussions across diverse STEM fields.",
-    "skills": ["Academic Leadership", "Research Communication", "STEM Engagement", "Mentoring"],
-    "group": "Academic Leadership"
+    "title": "Speaker: Image Classification with Azure ML",
+    "organization": "Microsoft User Group Hyderabad",
+    "period": "Nov 2020",
+    "image": ["leadership/mugh_speaker_aiml_1.png"],
+    "caption": "Presented on Image Classification with Azure ML",
+    "description": "Conducted a technical session on deploying image classification models using Azure ML, engaging with a broad developer audience.",
+    "skills": ["Public Speaking", "Computer Vision", "Azure ML", "Community Engagement"],
+    "group": "Presentations"
   }
 ]
