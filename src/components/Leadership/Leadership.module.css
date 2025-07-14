@@ -176,7 +176,13 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.75) 0%, transparent 100%);
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.75) 10%,
+    rgba(0, 0, 0, 0.55) 60%,
+    rgba(0, 0, 0, 0.35) 90%,
+    transparent 100%
+  );
   padding: var(--space-md);
   color: white;
 }
@@ -198,6 +204,8 @@
 
 .learnMoreButton {
   margin-top: var(--space-sm);
+  margin-left: var(--space-sm);
+  align-items: right;
   background: rgba(255, 255, 255, 0.15);
   border: 1px solid rgba(255, 255, 255, 0.3);
   padding: 4px 10px;
@@ -224,7 +232,7 @@
 
 .arrowLeft,
 .arrowRight {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.75);
   border: none;
   border-radius: 50%;
   padding: 4px;
