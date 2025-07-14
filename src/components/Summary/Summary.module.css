@@ -260,13 +260,13 @@
 
 .additional {
     font-size: var(--text-md);
-    color: var(--color-accent);
+    color: var(--color-danger);
     font-weight: var(--font-weight-medium);
     margin-bottom: var(--space-xl);
     padding: var(--space-sm) var(--space-md);
     background: rgba(245, 158, 11, 0.1);
     border-radius: var(--radius-lg);
-    border-left: 3px solid var(--color-accent);
+    border-left: 3px solid var(--color-danger);
     opacity: 0;
     animation: fadeIn 1s ease-out 0.9s forwards;
 }

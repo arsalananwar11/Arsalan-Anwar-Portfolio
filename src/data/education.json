@@ -14,7 +14,7 @@
       "Big Data Analytics",
       "Software Engineering"
     ],
-    "imageSrc": "education/nyu.png",
+    "imageSrc": "organizations/nyu.png",
     "description": "Specialized in AI/ML with focus on data science applications and software engineering practices."
   },
   {
@@ -31,7 +31,7 @@
       "Operating Systems",
       "Statistics & Probability"
     ],
-    "imageSrc": "education/bit.jpg",
+    "imageSrc": "organizations/bit.jpg",
     "description": "Foundation in computer science with strong emphasis on programming and software development."
   }
 ]
