@@ -59,6 +59,9 @@ export default function Leadership() {
               >
                 <div className={styles.flipCardInner}>
                   {/* Front */}
+                  <div className={`${styles.groupTag} ${styles[`group_${item.group.replace(/\s+/g, '').toLowerCase()}`]}`}>
+                    {item.group}
+                  </div>
                   <div className={styles.flipCardFront}>
                     <div className={styles.imageContainer}>
                       <img

@@ -206,7 +206,7 @@
   margin-top: var(--space-sm);
   margin-left: var(--space-sm);
   align-items: right;
-  background: rgba(255, 255, 255, 0.15);
+  background: rgb(2, 67, 101);
   border: 1px solid rgba(255, 255, 255, 0.3);
   padding: 4px 10px;
   font-size: 0.7rem;
@@ -276,6 +276,44 @@
 
 .backContent::-webkit-scrollbar-track {
   background: transparent;
+}
+
+.groupTag {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 4px 10px;
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: white;
+  border-radius: 20px;
+  z-index: 10;
+  /* text-transform: uppercase; */
+  letter-spacing: 0.5px;
+  backdrop-filter: blur(10px);
+  background: rgba(6, 72, 119, 0.525);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Color variants by group */
+.group_judgingpanel {
+  background: rgba(157, 83, 4, 0.804);
+}
+
+.group_teachingandacademia {
+  background: rgba(64, 6, 119, 0.60);
+}
+
+.group_presentations {
+  background: rgba(7, 108, 110, 0.795);
+}
+
+.group_communityleadership {
+  background: rgba(20, 107, 7, 0.772);
+}
+
+.group_culturalleadership {
+  background-color: #EF4444; /* Rose-500 */
 }
 
 @media screen and (max-width: 830px) {
