@@ -10,6 +10,7 @@
     --color-success: #059669; /* Professional emerald */
     --color-warning: #D97706; /* Warm amber for highlights */
     --color-soft: #cbe0ef; /* Soft blue for soft elements */
+    --color-danger: #dc2626; /* Strong red for errors */
     
     /* Background Colors */
     --color-bg: #FFFFFF; /* Pure white background */

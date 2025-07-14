@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Smart Water Analytics System for Demand Forecasting of Water Consumption and Analysis",
+    "conference": "International Conference on Advances in Computing Technologies",
+    "year": "2020",
+    "image": "research/water-analytics.jpg",
+    "link": "",
+    "authors": ["Arsalan Anwar", "Devraj", "Ganesh Prasad", "Dhanush R" , "Dr. D.G Jyothi"],
+    "abstract": "Developed a smart analytics platform for forecasting water usage trends in Bengaluru, optimizing water distribution systems for resource efficiency.",
+    "keywords": ["Forecasting", "Smart City Analytics", "Time Series Analysis", "Data Science"]
+  },
+  {
+    "title": "A Survey on Intrusion Detection Systems using Deep Reinforcement Learning",
+    "conference": "International Conference on Artificial Intelligence and Data Science",
+    "year": "2022",
+    "image": "research/intrusion-detection.jpg",
+    "link": "",
+    "authors": ["Arsalan Anwar", "Dr. D.G Jyothi"],
+    "abstract": "Conducted a comprehensive survey of Deep Reinforcement Learning (DRL) techniques applied to cybersecurity intrusion detection systems.",
+    "keywords": ["Cybersecurity", "Deep Reinforcement Learning", "Survey Research", "AI in Security"]
+  }
+]

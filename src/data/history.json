@@ -9,7 +9,7 @@
       "Developed retrieval-augmented search over NYU’s academic and policy documents, achieving over 92% accuracy in answer relevancy.",
       "Collaborated with university departments and implemented scalable backend with FastAPI and vector search (FAISS), reducing student query response time by 65%."
     ],
-    "imageSrc": "history/nyu.png"
+    "imageSrc": "organizations/nyu.png"
   },
   {
     "role": "Data Science Intern",
@@ -21,7 +21,7 @@
       "Engineered transformers-based text classification models (SciBERT, ClinicalBERT) to extract protocol metadata with 93% precision.",
       "Collaborated with the GenAI and platform teams to deploy modular ML components with MLflow and Docker for real-time API access."
     ],
-    "imageSrc": "history/medidata.jpeg"
+    "imageSrc": "organizations/medidata.jpeg"
   },
   {
     "role": "Data Scientist",
@@ -33,7 +33,7 @@
       "Developed high-value customer segmentation using clustering and purchase behavior, achieving 94% targeting accuracy.",
       "Led insights automation pipeline development for weekly business reporting, reducing manual workload by 80%."
     ],
-    "imageSrc": "history/c5i.png"
+    "imageSrc": "organizations/c5i.png"
   },
   {
     "role": "Data Scientist",
@@ -45,7 +45,7 @@
       "Automated root-cause defect analysis using time-series clustering, reducing quality investigation time by 40%.",
       "Collaborated with manufacturing teams across 3 continents, aligning ML solutions with FDA and ISO 13485 compliance."
     ],
-    "imageSrc": "history/west.png"
+    "imageSrc": "organizations/west.png"
   },
   {
     "role": "Associate Data Scientist",
@@ -57,7 +57,7 @@
       "Built pipeline for compliance audit risk scoring using logistic regression and topic modeling, reducing audit effort by 18%.",
       "Used Azure ML Studio for model deployment in GxP environments, ensuring reproducibility and traceability in production pipelines."
     ],
-    "imageSrc": "history/west.png"
+    "imageSrc": "organizations/west.png"
   },
   {
     "role": "Graduate Software Trainee",
@@ -69,6 +69,6 @@
       "Implemented batch scoring services in Python with REST APIs, improving system scalability across 4 production lines.",
       "Documented model interpretability workflows using SHAP to meet regulatory transparency standards."
     ],
-    "imageSrc": "history/west.png"
+    "imageSrc": "organizations/west.png"
   }
 ]

@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Top 3 Finalist - Innovative Student Projects Award",
+    "organization": "Indian National Academy of Engineering (INAE)",
+    "year": "2020",
+    "image": "awards/inae.jpg",
+    "caption": "Recognized for top AI innovation in India",
+    "description": "Selected as one of the top 3 projects under the Computer Science category among thousands across India for an AI-based student project.",
+    "skills": ["Innovation", "Research Impact", "Recognition", "AI"]
+  },
+  {
+    "title": "National Project Competition Winner",
+    "organization": "Tontadarya College of Engineering",
+    "year": "2019",
+    "image": "awards/national-project.jpg",
+    "caption": "National-level project excellence",
+    "description": "Won first place in a national-level project competition for developing a novel machine learning-based water management system.",
+    "skills": ["Machine Learning", "Engineering Projects", "National Recognition"]
+  },
+  {
+    "title": "State Project Competition Winner",
+    "organization": "Dayananda Academy of Technology and Management",
+    "year": "2019",
+    "image": "awards/state-project.jpg",
+    "caption": "Championing innovation at the state level",
+    "description": "Secured first place for an AI-powered water analytics project addressing real-world urban issues.",
+    "skills": ["Urban Tech", "AI Solutions", "Public Sector Relevance"]
+  },
+  {
+    "title": "West – By Your Side Award",
+    "organization": "West Pharmaceutical Services",
+    "year": "2022",
+    "image": "awards/west-award.jpg",
+    "caption": "Recognized for excellence and teamwork",
+    "description": "Awarded for outstanding performance and collaboration across departments while delivering AI/ML solutions in manufacturing.",
+    "skills": ["Teamwork", "Performance Excellence", "ML in Manufacturing"]
+  },
+  {
+    "title": "ML Brawl Tag Team Championship - Runners Up",
+    "organization": "West AI/ML Team",
+    "year": "2021",
+    "image": "awards/ml-brawl.jpg",
+    "caption": "Recognized for competitive machine learning skills",
+    "description": "Secured second place in a team-based machine learning competition, solving advanced modeling challenges under time constraints.",
+    "skills": ["ML Competitions", "Collaboration", "Model Development"]
+  }
+]
