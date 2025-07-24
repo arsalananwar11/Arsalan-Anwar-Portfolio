@@ -266,14 +266,14 @@
   }
 
   .role {
-      font-size: 20px;
+      font-size: var(--text-lg);
   }
 
   .organization {
-      font-size: 18px;
+      font-size: var(--text-md);
   }
 
   .dates {
-      font-size: 16px;
+      font-size: var(--text-sm);
   }
 }

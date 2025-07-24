@@ -16,12 +16,12 @@ export default function App() {
     <div className={style.App}>
       <Navbar />
       <Summary />
+      <Education />
       <TechStack />
       <Projects />
-      <Experience />
-      <Education />
       <Certification />
       <Leadership />
+      <Experience />
       <Contact />
     </div>
   );

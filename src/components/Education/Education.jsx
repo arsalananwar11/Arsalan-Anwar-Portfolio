@@ -7,39 +7,20 @@ export default function Education() {
   return (
     <section id="education" className={styles.container}>
       <h2 className={styles.title}>Education</h2>
-      <div className={styles.educationGrid}>
+      <div className={styles.educationGridCompact}>
         {educationData.map((edu, index) => (
-          <div key={index} className={styles.educationCard}>
-            <div className={styles.cardHeader}>
+          <div key={index} className={styles.educationCardCompact}>
+            <div className={styles.cardHeaderCompact}>
               <img 
                 src={getImageURL(edu.imageSrc)} 
                 alt={edu.institution} 
-                className={styles.institutionLogo} 
+                className={styles.institutionLogoCompact} 
               />
-              <div className={styles.headerContent}>
-                <h3 className={styles.degree}>{edu.degree}</h3>
-                <h4 className={styles.institution}>{edu.institution}</h4>
-                <p className={styles.location}>{edu.location}</p>
-              </div>
-            </div>
-            
-            <div className={styles.cardBody}>
-              <div className={styles.duration}>
-                <span className={styles.durationText}>{edu.duration}</span>
-                <span className={styles.gpa}>GPA: {edu.gpa}</span>
-              </div>
-              
-              <p className={styles.description}>{edu.description}</p>
-              
-              <div className={styles.coursework}>
-                <h5 className={styles.courseworkTitle}>Relevant Coursework:</h5>
-                <div className={styles.courseworkList}>
-                  {edu.relevantCoursework.map((course, courseIndex) => (
-                    <span key={courseIndex} className={styles.course}>
-                      {course}
-                    </span>
-                  ))}
-                </div>
+              <div className={styles.headerContentCompact}>
+                <h3 className={styles.degreeCompact}>{edu.degree}</h3>
+                <h4 className={styles.institutionCompact}>{edu.institution}</h4>
+                <p className={styles.locationCompact}>{edu.location}</p>
+                <span className={styles.durationCompact}>{edu.duration}</span>
               </div>
             </div>
           </div>
