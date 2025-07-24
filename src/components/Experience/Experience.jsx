@@ -1,6 +1,6 @@
 import React from 'react'
 import { getImageURL } from '../../utils'
-import history from "../../data/history.json"
+import history from "../../data/experience.json"
 import styles from "./Experience.module.css"
 
 export default function Experience() {
