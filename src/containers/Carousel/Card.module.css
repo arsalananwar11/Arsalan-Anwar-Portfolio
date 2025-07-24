@@ -81,18 +81,19 @@
   filter: brightness(0) invert(1);
 }
 
-.skill:hover {
+/* .skill:hover {
   background: var(--color-primary);
   color: var(--color-text-light);
   transform: translateY(-3px);
   box-shadow: var(--shadow-md);
-}
+} */
 
 .links {
   width: 100%;
   margin-top: var(--space-lg);
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: var(--space-md);
 }
 
 .link {
@@ -111,6 +112,69 @@
   background: var(--color-primary-dark);
   transform: translateY(-3px);
   box-shadow: var(--shadow-lg);
+}
+
+.demoBtn {
+  background: linear-gradient(90deg, #06b6d4 0%, #3b82f6 100%);
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: var(--shadow-sm);
+  transition: background 0.2s, transform 0.2s;
+  text-decoration: none;
+}
+
+.demoBtn:hover {
+  background: linear-gradient(90deg, #0ea5e9 0%, #6366f1 100%);
+  transform: translateY(-2px) scale(1.04);
+}
+
+.sourceBtn {
+  background: linear-gradient(90deg, #2f687b 0%, #055d7a 100%);
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: var(--shadow-sm);
+  transition: background 0.2s, transform 0.2s;
+  text-decoration: none;
+}
+
+.sourceBtn:hover {
+    background: linear-gradient(90deg, #024359 0%, #012734 100%);
+  transform: translateY(-2px) scale(1.04);
+}
+
+.reportBtn {
+  background: linear-gradient(90deg, #030304 0%, #000000 100%);
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: var(--shadow-sm);
+  transition: background 0.2s, transform 0.2s;
+  text-decoration: none;
+}
+
+.reportBtn:hover {
+  background: linear-gradient(90deg, #39a3c6 0%, #4993a0 100%);
+  transform: translateY(-2px) scale(1.04);
 }
 
 @media screen and (max-width: 830px) {
@@ -134,12 +198,12 @@
   }
 
   .skills {
-    margin-top: 12px;
+    margin-top: 6px;
     gap: 4px;
   }
 
   .skill {
-    font-size: 14px;
+    font-size: 10px;
     padding: 4px 10px;
   }
 
@@ -158,5 +222,12 @@
     font-size: 12px;
     padding: 8px 16px;
     margin-left: 8px;
+  }
+
+  .demoBtn, .sourceBtn, .reportBtn {
+    font-size: 0.8rem;
+    padding: 4px 10px;
+    gap: 4px;
+    margin: 2px
   }
 }
