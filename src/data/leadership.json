@@ -103,7 +103,7 @@
     "title": "Speaker: A General Introduction to Data Science and Machine Learning",
     "organization": "West Pharmaceutical Services",
     "period": "2022",
-    "image": ["leadership/knowledge-exchange.jpg", "leadership/speaker_aiml_applications_bit.jpeg"],
+    "image": ["leadership/knowledge-exchange.jpg"],
     "caption": "Educating internal data science communities",
     "description": "Delivered an internal talk to West teams, simplifying key ML concepts and bridging knowledge gaps across departments.",
     "skills": ["Data Science Education", "Public Speaking", "Cross-functional Communication", "Leadership"],
