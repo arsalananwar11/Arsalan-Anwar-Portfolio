@@ -40,13 +40,21 @@ export default function Card({ data }) {
       </ul>
       <div className={styles.links}>
         {data.demo && (
-          <a href={data.demo} className={styles.link} target="_blank" rel="noopener noreferrer">
+          <a href={data.demo} className={styles.demoBtn} target="_blank" rel="noopener noreferrer">
+            {/* <span role="img" aria-label="Demo">🚀</span> */}
             Demo
           </a>
         )}
         {data.source && (
-          <a href={data.source} className={styles.link} target="_blank" rel="noopener noreferrer">
-            Source
+          <a href={data.source} className={styles.sourceBtn} target="_blank" rel="noopener noreferrer">
+            {/* <span role="img" aria-label="Source">💻</span> */} 
+            Code
+          </a>
+        )}
+        {data.report && (
+          <a href={data.report} className={styles.reportBtn} target="_blank" rel="noopener noreferrer">
+            {/* <span role="img" aria-label="Report">📄</span>  */}
+            Report
           </a>
         )}
         {data.certificate_link && (
