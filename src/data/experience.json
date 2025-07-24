@@ -1,5 +1,17 @@
 [
   {
+    "role": "Data Science Intern",
+    "organization": "Medidata Solutions (a Dassault Systèmes company)",
+    "startDate": "Feb 2025",
+    "endDate": "Jun 2025",
+    "experiences": [
+      "Developed an automated validation framework to evaluate model performance for clinical form extraction and edit check generation, significantly reducing manual QA efforts",
+      "Partnered with cross-functional teams to map historical edit check metadata to study protocols using Snowflake, improving data traceability",
+      "Co-designed a POC for the next-gen ML Prediction Service (Coder+) for intelligent medical coding using RAG architecture with vector embedded MedDRA and WHODrug data stored in Mongo Vector DB"
+    ],
+    "imageSrc": "organizations/medidata.jpeg"
+  },
+  {
     "role": "Data Scientist (Research Assistant)",
     "organization": "New York University",
     "startDate": "Jan, 2024",
@@ -13,21 +25,21 @@
   },
   {
     "role": "Data Science Intern",
-    "organization": "Medidata Solutions",
-    "startDate": "May, 2024",
-    "endDate": "Aug, 2024",
+    "organization": "Medidata Solutions (a Dassault Systèmes company)",
+    "startDate": "May 2024",
+    "endDate": "Aug 2024",
     "experiences": [
-      "Integrated advanced NLP pipelines into clinical trial workflows, reducing protocol setup time by 45% across oncology studies.",
-      "Engineered transformers-based text classification models (SciBERT, ClinicalBERT) to extract protocol metadata with 93% precision.",
-      "Collaborated with the GenAI and platform teams to deploy modular ML components with MLflow and Docker for real-time API access."
+      "Automated clinical trial consent workflows using NLP and Large Language Models (LLMs), cutting setup time by 45% and costs by $6 million annually",
+      "Boosted document processing efficiency by 20% with a custom algorithm for multilingual text extraction, eliminating manual language annotation",
+      "Achieved 98% accuracy in form-field mapping using AWS Bedrock and Claude AI, reducing annotation time by 87% (15min to 2min)"
     ],
     "imageSrc": "organizations/medidata.jpeg"
   },
   {
     "role": "Data Scientist",
-    "organization": "Course5 Intelligence",
-    "startDate": "Feb, 2023",
-    "endDate": "Aug, 2023",
+    "organization": "C5i",
+    "startDate": "Feb 2023",
+    "endDate": "Aug 2023",
     "experiences": [
       "Built Apriori-based Market Basket Model to drive upsell strategies for a Fortune 500 client, boosting revenue opportunity identification by 26%.",
       "Developed high-value customer segmentation using clustering and purchase behavior, achieving 94% targeting accuracy.",
@@ -38,10 +50,10 @@
   {
     "role": "Data Scientist",
     "organization": "West Pharmaceutical Services",
-    "startDate": "Jul, 2021",
-    "endDate": "Feb, 2023",
+    "startDate": "Aug 2022",
+    "endDate": "Feb 2023",
     "experiences": [
-      "Deployed real-time computer vision models (YOLOv5) to detect cosmetic defects in syringe products, increasing inspection accuracy to 92%.",
+      "Deployed real-time computer vision models (XceptionNet) to detect cosmetic defects in syringe products, increasing inspection accuracy to 92%.",
       "Automated root-cause defect analysis using time-series clustering, reducing quality investigation time by 40%.",
       "Collaborated with manufacturing teams across 3 continents, aligning ML solutions with FDA and ISO 13485 compliance."
     ],
@@ -50,11 +62,11 @@
   {
     "role": "Associate Data Scientist",
     "organization": "West Pharmaceutical Services",
-    "startDate": "Jan, 2021",
-    "endDate": "Jul, 2021",
+    "startDate": "Jul 2020",
+    "endDate": "Jul 2022",
     "experiences": [
-      "Developed NLP-based document parsing system for FDA guideline documents, improving keyword mapping and retrieval accuracy by 23%.",
-      "Built pipeline for compliance audit risk scoring using logistic regression and topic modeling, reducing audit effort by 18%.",
+      "Developed NLP-based document parsing system for internal West documents, improving keyword mapping and retrieval accuracy by 23%.",
+      "Built robust ELT pipelines on Azure Data Factory for 6+ data sources, reducing data preparation time by 40%",
       "Used Azure ML Studio for model deployment in GxP environments, ensuring reproducibility and traceability in production pipelines."
     ],
     "imageSrc": "organizations/west.png"
@@ -62,8 +74,8 @@
   {
     "role": "Graduate Software Trainee",
     "organization": "West Pharmaceutical Services",
-    "startDate": "Jul, 2020",
-    "endDate": "Jan, 2021",
+    "startDate": "Jan 2020",
+    "endDate": "Jun 2020",
     "experiences": [
       "Engineered image classification pipeline for particulate detection in injectables using Azure ML, achieving 97% accuracy.",
       "Implemented batch scoring services in Python with REST APIs, improving system scalability across 4 production lines.",
