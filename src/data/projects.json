@@ -1,50 +1,54 @@
 [
   {
     "title": "Inquis AI",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/inquis_ai.png",
     "description": "A unified AI assistant and content management system that significantly improved student engagement and learning efficiency by 21% through an integrated front-end and scalable back-end built with Flask and Firebase.",
     "skills": ["Flask", "Firebase", "Azure DevOps", "Pinecone", "LangChain", "Hugging Face", "Retreival Augmented Generation (RAG)"],
     "demo":"https://www.inquis-ai.com/"
   },
   {
       "title": "Automated Industrial Inspection System using Computer Vision",
-      "imageSrc": "projects/project.png",
+      "imageSrc": "projects/industrial_inspection_system.jpg",
       "description": "A system to inspect manufactured parts and enhance quality control by using computer vision techniques. This system aims to boost inspection accuracy and efficiency, thus reducing costs and human error.",
       "skills": ["Python", "Computer Vision", "Deep Learning"],
-      "source": "https://github.com/arsalananwar11/Automated-Industrial-Inspection-System-using-Computer-Vision"
+      "source": "https://github.com/arsalananwar11/Automated-Industrial-Inspection-System-using-Computer-Vision",
+      "report": "https://docs.google.com/presentation/d/144ihBUms3pbtCaA9FmnW3HiIcFcpWQfDX_3baV7cvR4/edit?usp=sharing"
   },
   {
     "title": "Image Captioning Benchmarking using Encoder/Decoder Deep Learning Models",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/image_captioning.png",
     "description": "This project evaluates the performance of encoder-decoder deep neural networks for image captioning using pre-trained ResNeXt CNN as the encoder, and both GRU & LSTM architectures as decoders. The models are compared using BLEU, METEOR, and ROUGE scores",
     "skills": ["Python", "Deep Learning", "Flickr8", "ResNet", "LSTM", "Encoder/Decoder"],
-    "source": "https://github.com/tkobil/image-captioning-using-encoder-decoder-models"
+    "source": "https://github.com/arsalananwar11/Image-Captioning-using-Encoder-Decoder-Models",
+    "report": "https://github.com/arsalananwar11/Image-Captioning-using-Encoder-Decoder-Models/blob/main/reports/Deep_Learning_Final_Project_Report.pdf"
   },
   {
     "title": "Safeguarding NYC: Analyzing Crime Patterns using Big Data",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/nyc_bd_crime_analysis.png",
     "description": "Projected a 30% enhancement in NYPD's crime prevention efficiency through big data analysis of 220k+ crime records using advanced ELT pipelines and Spark.",
     "skills": ["Python", "SQL", "Spark", "Snowflake", "Data Analysis", "Big Data", "Power BI"],
     "source": "https://github.com/arsalananwar11/Safeguarding-NYC-Analyzing-Crime-Patterns-using-Big-Data",
-    "demo": "https://www.youtube.com/watch?v=h9XeFN8BQqk"
+    "demo": "https://www.youtube.com/watch?v=h9XeFN8BQqk",
+    "report": "https://github.com/arsalananwar11/Safeguarding-NYC-Analyzing-Crime-Patterns-using-Big-Data/blob/main/reports/Safeguarding_NYC_Analysing_Crime_Patterns_using_Big_Data_Final_Report.pdf"
   },
   {
       "title": "Aqua Analytica: Water Demand Forecast Analytics",
-      "imageSrc": "projects/project.png",
+      "imageSrc": "projects/aqua_analytica.png",
       "description": "A Water Consumption Analytics System for Bengaluru using advanced ML techniques such as ARIMA, SARIMA & Holt-Winters for forecasting.",
       "skills": ["Python", "Flask", "Demand Forecasting", "Time Series Forecasting", "Data Analytics"],
       "demo": "https://aquaanalytica.pythonanywhere.com/"
   },
   {
       "title": "Autonomous Robot Navigation using RL",
-      "imageSrc": "projects/project.png",
+      "imageSrc": "projects/auto_robo_navigation.jpg",
       "description": "Trained a Turtlebot3 Waffle Pi to autonomously navigate through the manufacturing plant without collision using DQN algorithm and human intervention data for faster learning.",
       "skills": ["Python", "Reinforcement Learning", "Robot Operating System (ROS)", "Gazebo", "OpenAI Gym"], 
-      "source": "https://github.com/arsalananwar11/Autonomous-Robot-Navigation-Using-DRL"
+      "source": "https://github.com/arsalananwar11/Autonomous-Robot-Navigation-Using-DRL",
+      "report": "https://docs.google.com/presentation/d/1-ea9Yk0wB6XVGQOSBbvEOxhkA9JpZ2ci/edit?usp=sharing&ouid=110653470717396097602&rtpof=true&sd=true"
   },
   {
       "title": "Customer Risk Assessment, Analysis and Management",
-      "imageSrc": "projects/project.png",
+      "imageSrc": "projects/customer_risk_assessment.jpg",
       "description": "Developed a system that identifies high value customers based on CLV who at risk of churning and flags them so that they can be incentivised for retention.",
       "skills": ["Churn Analysis", "Customer Segmentation", "CLV Modelling"]
   }
