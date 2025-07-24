@@ -410,8 +410,8 @@
     }
 
     .summary {
-        font-size: 20px;
-        margin: 20px 10px;
+        font-size: var(--text-2xl);
+        margin: 20px 0px;
     }
 
     .title {

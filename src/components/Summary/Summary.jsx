@@ -34,27 +34,27 @@ export default function Summary() {
         <div className={styles.stats}>
           <div className={styles.stat}>
             <span className={styles.statNumber}>4+</span>
-            <span className={styles.statLabel}>Years Experience</span>
+            <span className={styles.statLabel}>Years in AI/ML</span>
           </div>
           <div className={styles.stat}>
             <span className={styles.statNumber}>15+</span>
-            <span className={styles.statLabel}>ML Projects</span>
+            <span className={styles.statLabel}>Projects Delivered</span>
           </div>
           <div className={styles.stat}>
-            <span className={styles.statNumber}>4</span>
-            <span className={styles.statLabel}>Companies</span>
+            <span className={styles.statNumber}>∞</span>
+            <span className={styles.statLabel}>Ideas & Energy</span>
           </div>
         </div>
-        <p className={styles.additional}>
+        {/* <p className={styles.additional}>
           🎯 Currently seeking Data Science/AI Engineering opportunities
-        </p>
+        </p> */}
         <div className={styles.BtnsContainer}>
           <a className={styles.primaryBtn} href='/Arsalan_Anwar_Resume.pdf' download>
-            <span className={styles.btnIcon}>📄</span>
+            {/* <span className={styles.btnIcon}>📄</span> */}
             Download Resume
           </a>
           <a className={styles.secondaryBtn} href='#contact'>
-            <span className={styles.btnIcon}>💬</span>
+            {/* <span className={styles.btnIcon}>💬</span> */}
             Let's Connect
           </a>
         </div>
