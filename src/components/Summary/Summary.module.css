@@ -392,9 +392,17 @@
     .container {
         flex-direction: column-reverse;
         text-align: center;
-        padding-bottom: 15px; /* Adjusted for smaller screens */
         margin-top: 60px;
         justify-content: center;
+        padding: var(--space-2xl) var(--space-2xl);
+    }
+
+    .quote {
+        font-size: var(--text-base);
+        margin: var(--space-sm) 0;
+        padding: var(--space-sm);
+        border-left: 4px solid var(--color-primary);
+        border-radius: var(--radius-md);
     }
 
     .content {
