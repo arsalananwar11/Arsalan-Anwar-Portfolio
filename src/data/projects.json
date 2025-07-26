@@ -12,7 +12,7 @@
       "description": "A system to inspect manufactured parts and enhance quality control by using computer vision techniques. This system aims to boost inspection accuracy and efficiency, thus reducing costs and human error.",
       "skills": ["Python", "Computer Vision", "Deep Learning"],
       "source": "https://github.com/arsalananwar11/Automated-Industrial-Inspection-System-using-Computer-Vision",
-      "report": "https://docs.google.com/presentation/d/144ihBUms3pbtCaA9FmnW3HiIcFcpWQfDX_3baV7cvR4/edit?usp=sharing"
+      "report": "https://docs.google.com/presentation/d/1-ea9Yk0wB6XVGQOSBbvEOxhkA9JpZ2ci/edit?usp=sharing&ouid=110653470717396097602&rtpof=true&sd=true"
   },
   {
     "title": "Image Captioning Benchmarking using Encoder/Decoder Deep Learning Models",
@@ -44,7 +44,6 @@
       "description": "Trained a Turtlebot3 Waffle Pi to autonomously navigate through the manufacturing plant without collision using DQN algorithm and human intervention data for faster learning.",
       "skills": ["Python", "Reinforcement Learning", "Robot Operating System (ROS)", "Gazebo", "OpenAI Gym"], 
       "source": "https://github.com/arsalananwar11/Autonomous-Robot-Navigation-Using-DRL",
-      "report": "https://docs.google.com/presentation/d/1-ea9Yk0wB6XVGQOSBbvEOxhkA9JpZ2ci/edit?usp=sharing&ouid=110653470717396097602&rtpof=true&sd=true"
   },
   {
       "title": "Customer Risk Assessment, Analysis and Management",
