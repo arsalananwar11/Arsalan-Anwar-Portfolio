@@ -43,7 +43,7 @@
       "imageSrc": "projects/auto_robo_navigation.jpg",
       "description": "Trained a Turtlebot3 Waffle Pi to autonomously navigate through the manufacturing plant without collision using DQN algorithm and human intervention data for faster learning.",
       "skills": ["Python", "Reinforcement Learning", "Robot Operating System (ROS)", "Gazebo", "OpenAI Gym"], 
-      "source": "https://github.com/arsalananwar11/Autonomous-Robot-Navigation-Using-DRL",
+      "source": "https://github.com/arsalananwar11/Autonomous-Robot-Navigation-Using-DRL"
   },
   {
       "title": "Customer Risk Assessment, Analysis and Management",
