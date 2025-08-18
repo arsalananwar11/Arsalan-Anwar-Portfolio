@@ -1,31 +1,31 @@
 [
   {
     "title": "Model Context Protocol (MCP): Hands-On with Agentic AI",
-    "imageSrc": "https://media.licdn.com/dms/image/v2/D4E22AQHDCd2DL-5FCA/feedshare-shrink_1280/B4EZZHWLmyHUAo-/0/1744953719475?e=1753920000&v=beta&t=BxfLMy2DFZ6HEKPqhevyBn2-QVAAuwtRO2Wc_cWA3Rk",
+    "imageSrc": "certificate/MCP.jpeg",
     "description": "Hands-on training in Model Context Protocol (MCP), focusing on AI agents, API usage, and tools like Anthropic Claude.",
     "skills": ["AI Agents", "Application Programming Interfaces (API)", "Anthropic Claude"],
-    "certificate_link": "https://media.licdn.com/dms/image/v2/D4E22AQHDCd2DL-5FCA/feedshare-shrink_1280/B4EZZHWLmyHUAo-/0/1744953719475?e=1753920000&v=beta&t=BxfLMy2DFZ6HEKPqhevyBn2-QVAAuwtRO2Wc_cWA3Rk"
+    "certificate_link": "https://www.linkedin.com/learning/certificates/21f0ffc7ee5be30372bd36b2396a840cd4b74644344ee24e87cf10a3bc8be0c3"
   },
   {
     "title": "Advanced AI: NLP Techniques for Clinical Datasets",
-    "imageSrc": "https://media.licdn.com/dms/image/v2/D4E22AQHeG3rT9wWhvw/feedshare-shrink_1280/feedshare-shrink_1280/0/1716498797336?e=1753920000&v=beta&t=nFO-7tkME6uF6WT8nQFaRGvb2T8Te5H7iCrmVI9W6XM",
+    "imageSrc": "certificate/advanced_ai_nlp.jpeg",
     "description": "Explored advanced NLP methods tailored for analyzing clinical datasets and applying machine learning in healthcare.",
     "skills": ["Applied Machine Learning", "Healthcare Analytics"],
-    "certificate_link": "https://media.licdn.com/dms/image/v2/D4E22AQHeG3rT9wWhvw/feedshare-shrink_1280/feedshare-shrink_1280/0/1716498797336?e=1753920000&v=beta&t=nFO-7tkME6uF6WT8nQFaRGvb2T8Te5H7iCrmVI9W6XM"
+    "certificate_link": "https://www.linkedin.com/learning/certificates/4638a4a3ccc8250d7a06cff29203ad8eab8110f733b1c7a594bb4ea387990eff"
   },
   {
     "title": "Generative AI for Business Leaders",
-    "imageSrc": "https://media.licdn.com/dms/image/v2/D4E22AQHXa1xrpN7PPQ/feedshare-shrink_1280/feedshare-shrink_1280/0/1716322289086?e=1753920000&v=beta&t=qlBWMkQzN4kFR3Ljjwqwv1MA_n1QT-VVtAADsbwKv0U",
+    "imageSrc": "certificate/gen_ai_for_business_leaders.jpeg",
     "description": "Learned how to integrate generative AI into business strategy and operations.",
     "skills": ["Artificial Intelligence for Business", "Business Strategy"],
-    "certificate_link": "https://media.licdn.com/dms/image/v2/D4E22AQHXa1xrpN7PPQ/feedshare-shrink_1280/feedshare-shrink_1280/0/1716322289086?e=1753920000&v=beta&t=qlBWMkQzN4kFR3Ljjwqwv1MA_n1QT-VVtAADsbwKv0U"
+    "certificate_link": "https://www.linkedin.com/learning/certificates/5643de982abbea465b3777313abe0aee2ab96e3961661afc26a64189a965ca4d"
   },
   {
     "title": "Getting Started with AWS Cloud Map",
-    "imageSrc": "https://media.licdn.com/dms/image/v2/D4E22AQEravSDCEmN8w/feedshare-shrink_1280/feedshare-shrink_1280/0/1716931401697?e=1753920000&v=beta&t=EOHvpW2_ulkUPiz75oqZsWkn6uDXt3f5eEhGywuOQZI",
+    "imageSrc": "certificate/aws_cloud_map.jpeg",
     "description": "Introductory course on AWS Cloud Map for service discovery and scalable cloud application development.",
     "skills": ["Amazon Web Services (AWS)", "Cloud Application Development"],
-    "certificate_link": "https://media.licdn.com/dms/image/v2/D4E22AQEravSDCEmN8w/feedshare-shrink_1280/feedshare-shrink_1280/0/1716931401697?e=1753920000&v=beta&t=EOHvpW2_ulkUPiz75oqZsWkn6uDXt3f5eEhGywuOQZI"
+    "certificate_link": "https://www.linkedin.com/learning/certificates/7a9e847b906a51cfe89564246258bcb27291d2593eaae0b9a3276eeef8e72ee6"
   },
   {
     "title": "Snowflake for Beginners: Make your First Snowsight Dashboard",
