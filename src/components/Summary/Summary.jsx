@@ -94,12 +94,12 @@ export default function Summary() {
       </div>
       <div className={styles.imageContainer}>
         <img className={styles.summaryImg} src={getImageURL("summary/Arsalan_Anwar_Grad.jpg")} alt='Arsalan Anwar - Data Scientist' />
-        <div className={styles.floatingElements}>
+        {/* <div className={styles.floatingElements}>
           <div className={styles.floatingElement} style={{top: '10%', left: '10%'}}>🤖</div>
           <div className={styles.floatingElement} style={{top: '20%', right: '15%'}}>📊</div>
           <div className={styles.floatingElement} style={{bottom: '30%', left: '5%'}}>🧠</div>
           <div className={styles.floatingElement} style={{bottom: '10%', right: '20%'}}>⚡</div>
-        </div>
+        </div> */}
       </div>
       <div className={styles.backgroundPattern}></div>
     </section>
