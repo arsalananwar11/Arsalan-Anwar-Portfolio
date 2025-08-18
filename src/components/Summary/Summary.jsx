@@ -1,10 +1,20 @@
 import React, { useState, useEffect } from 'react';
+import { 
+  HiMail, 
+  HiDownload,
+  HiSparkles
+} from 'react-icons/hi'
+import { 
+  FaLinkedin, 
+  FaGithub 
+} from 'react-icons/fa'
 import styles from "./Summary.module.css";
 import { getImageURL } from '../../utils';
 
 const HEADLINES = [
   "Data Scientist",
   "AI Product Developer",
+  "Cloud and AI Engineer",
   "MS CS @ New York University"
 ];
 
@@ -34,74 +44,99 @@ export default function Summary() {
   }, [charIndex, deleting, headlineIndex]);
 
   return (
-    <section className={styles.container} id="summary">
-      <div className={styles.content}>
-        {/* <div className={styles.BtnsContainer}>
-          <div className={styles.badge}>
-            <span className={styles.badgeIcon}>🚀</span>
-            Data Science & AI Innovation
+    <section className={styles.heroSection} id="summary">
+      <div className={styles.heroContent}>
+        <div className={styles.heroLeft}>
+          <p className={styles.heroIntro}>Hello, I'm</p>
+          <h1 className={styles.heroName}>Arsalan Anwar</h1>
+          <h2 className={styles.heroHeadline}>
+            <span>{displayed}</span>
+            <span className={styles.cursor}>|</span>
+          </h2>
+          <p className={styles.heroSummary}>
+            I build intelligent, scalable solutions at the intersection of AI, cloud, and product. Passionate about transforming data into business impact, I specialize in end-to-end ML, GenAI, and cloud-native applications.
+          </p>
+          <div className={styles.heroStatsRow}>
+            <div className={styles.heroStat}><span className={styles.heroStatNumber}>4+</span><span className={styles.heroStatLabel}>Years in AI/ML</span></div>
+            <div className={styles.heroStat}><span className={styles.heroStatNumber}>15+</span><span className={styles.heroStatLabel}>Projects Delivered</span></div>
+            <div className={styles.heroStat}><span className={styles.heroStatNumber}>∞</span><span className={styles.heroStatLabel}>Ideas & Energy</span></div>
           </div>
-          <div className={styles.badge}>
-            <span className={styles.badgeIcon}>🚀</span>
-            Data Science & AI Innovation
-          </div>
-        </div> */}
-        <div className={styles.quote}>
-          <span className={styles.quoteIcon}>"</span>
-          95% of Executives Say Data Drives Business Strategy — So I Build Solutions That Matter
-          <span className={styles.quoteIcon}>"</span>
-          {/* <div className={styles.quoteAuthor}>- W. Edwards Deming</div> */}
-        </div>
-        <h1 className={styles.title}>
-          Hi, I'm <span className={styles.name}>Arsalan Anwar</span>
-        </h1>
-        <h2 className={styles.typewriterHeadline}>
-          <span>{displayed}</span>
-          <span className={styles.cursor}>|</span>
-        </h2>
-        <p className={styles.summary}>
-          Transforming complex data into actionable insights and scalable AI solutions. 
-          Experienced in building end-to-end ML pipelines, GenAI applications, and 
-          data-driven products that deliver measurable business impact.
-        </p>
-        <div className={styles.stats}>
-          <div className={styles.stat}>
-            <span className={styles.statNumber}>4+</span>
-            <span className={styles.statLabel}>Years in AI/ML</span>
-          </div>
-          <div className={styles.stat}>
-            <span className={styles.statNumber}>15+</span>
-            <span className={styles.statLabel}>Projects Delivered</span>
-          </div>
-          <div className={styles.stat}>
-            <span className={styles.statNumber}>∞</span>
-            <span className={styles.statLabel}>Ideas & Energy</span>
+          {/* <div className={styles.heroTagsRow}>
+            <span className={styles.heroTag}>AI & Data Science</span>
+            <span className={styles.heroTag} class="text-purple-700">Cloud Engineering</span>
+          </div> */}
+           <div className="flex flex-wrap gap-2 sm:gap-3 mt-4 justify-center lg:justify-start">
+            <div className="flex items-center gap-1.5 px-3 py-1.5 bg-blue-50 rounded-full border border-blue-200">
+              <HiSparkles className="w-4 h-4 text-blue-600" />
+              <span className="text-xs sm:text-sm font-medium text-blue-700">AI/ML Engineer</span>
+            </div>
+            <div className="flex items-center gap-1.5 px-3 py-1.5 bg-purple-50 rounded-full border border-purple-200">
+              <HiSparkles className="w-4 h-4 text-purple-600" />
+              <span className="text-xs sm:text-sm font-medium text-purple-700">Data Scientist</span>
+            </div>
+            <div className="flex items-center gap-1.5 px-3 py-1.5 bg-green-50 rounded-full border border-green-200">
+              <HiSparkles className="w-4 h-4 text-green-600" />
+              <span className="text-xs sm:text-sm font-medium text-green-700">Cloud Architect</span>
+            </div>
           </div>
         </div>
-        {/* <p className={styles.additional}>
-          🎯 Currently seeking Data Science/AI Engineering opportunities
-        </p> */}
-        <div className={styles.BtnsContainer}>
-          <a className={styles.primaryBtn} href='/Arsalan_Anwar_Resume.pdf' download>
-            {/* <span className={styles.btnIcon}>📄</span> */}
-            Download Resume
-          </a>
-          <a className={styles.secondaryBtn} href='#contact'>
-            {/* <span className={styles.btnIcon}>💬</span> */}
-            Let's Connect
-          </a>
+        <div className={styles.heroRight}>
+          <img className={styles.heroImage} src={getImageURL("summary/Arsalan_Anwar_Grad.jpg")} alt='Arsalan Anwar' />
+          <div className="flex flex-col items-center lg:items-center gap-4 sm:gap-5 w-full max-w-[360px]">
+
+            <a
+              href='/Arsalan_Anwar_Resume.pdf' download
+              className="w-half font-medium text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-3.5 rounded-full bg-blue-600 text-white border-2 border-blue-600 hover:bg-blue-600 hover:border-blue-700 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 text-center active:scale-95"
+            >
+              <span className="flex items-center justify-center gap-2">
+                <HiDownload className="w-4 h-4 sm:w-5 sm:h-5" />
+                Download Resume
+              </span>
+            </a>
+
+
+            <div className="flex items-center justify-center lg:justify-center gap-3 sm:gap-4 w-full">
+
+              <a
+                href="mailto:arsalananwarofficial@gmail.com"
+                className="flex items-center justify-center w-11 h-11 sm:w-12 sm:h-12 rounded-full border-2 border-gray-300 bg-white text-gray-700 hover:bg-gray-100 hover:border-gray-400 hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 active:scale-95"
+                aria-label="Send email to Arsalan Anwar"
+                title="Send me an email"
+              >
+                <HiMail className="w-5 h-5 sm:w-6 sm:h-6" />
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/arsalan-anwar-ai/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center w-11 h-11 sm:w-12 sm:h-12 bg-blue-600 text-white rounded-full transition-all duration-300 hover:bg-blue-700 hover:shadow-md hover:-translate-y-0.5 active:scale-95"
+                aria-label="Connect on LinkedIn"
+              >
+                <FaLinkedin className="w-5 h-5 sm:w-6 sm:h-6" />
+              </a>
+
+              <a
+                href="https://github.com/arsalananwar11"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center w-11 h-11 sm:w-12 sm:h-12 bg-gray-800 text-white rounded-full transition-all duration-300 hover:bg-gray-900 hover:shadow-md hover:-translate-y-0.5 active:scale-95"
+                aria-label="View GitHub profile"
+              >
+                <FaGithub className="w-5 h-5 sm:w-6 sm:h-6" />
+              </a>
+            </div>
+          </div>
+          {/* <div className={styles.heroBtnsCol}>
+            <a className={styles.heroBtnPrimary} href='/Arsalan_Anwar_Resume.pdf' download>
+              <span className={styles.btnIcon}>📄</span> Resume
+            </a>
+            <a className={styles.heroBtnSecondary} href='#contact'>
+              <span className={styles.btnIcon}>💬</span> Connect
+            </a>
+          </div> */}
         </div>
       </div>
-      <div className={styles.imageContainer}>
-        <img className={styles.summaryImg} src={getImageURL("summary/Arsalan_Anwar_Grad.jpg")} alt='Arsalan Anwar - Data Scientist' />
-        {/* <div className={styles.floatingElements}>
-          <div className={styles.floatingElement} style={{top: '10%', left: '10%'}}>🤖</div>
-          <div className={styles.floatingElement} style={{top: '20%', right: '15%'}}>📊</div>
-          <div className={styles.floatingElement} style={{bottom: '30%', left: '5%'}}>🧠</div>
-          <div className={styles.floatingElement} style={{bottom: '10%', right: '20%'}}>⚡</div>
-        </div> */}
-      </div>
-      <div className={styles.backgroundPattern}></div>
     </section>
   );
 }
