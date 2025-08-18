@@ -1,6 +1,3 @@
-import React from 'react';
-import style from './App.module.css';
-
 import Navbar from "./components/Navbar/Navbar";
 import Summary from "./components/Summary/Summary";
 import TechStack from './components/TechStack/TechStack';
@@ -13,7 +10,7 @@ import Certification from './components/Certification/Certification';
 
 export default function App() {
   return (
-    <div className={style.App}>
+    <div>
       <Navbar />
       <Summary />
       <Education />
