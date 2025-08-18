@@ -83,7 +83,6 @@ export default function Summary() {
         <div className={styles.heroRight}>
           <img className={styles.heroImage} src={getImageURL("summary/Arsalan_Anwar_Grad.jpg")} alt='Arsalan Anwar' />
           <div className="flex flex-col items-center lg:items-center gap-4 sm:gap-5 w-full max-w-[360px]">
-
             <a
               href='/Arsalan_Anwar_Resume.pdf' download
               className="w-half font-medium text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-3.5 rounded-full bg-blue-600 text-white border-2 border-blue-600 hover:bg-blue-600 hover:border-blue-700 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 text-center active:scale-95"
@@ -127,14 +126,6 @@ export default function Summary() {
               </a>
             </div>
           </div>
-          {/* <div className={styles.heroBtnsCol}>
-            <a className={styles.heroBtnPrimary} href='/Arsalan_Anwar_Resume.pdf' download>
-              <span className={styles.btnIcon}>📄</span> Resume
-            </a>
-            <a className={styles.heroBtnSecondary} href='#contact'>
-              <span className={styles.btnIcon}>💬</span> Connect
-            </a>
-          </div> */}
         </div>
       </div>
     </section>
