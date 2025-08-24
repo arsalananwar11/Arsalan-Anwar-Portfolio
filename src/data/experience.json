@@ -1,6 +1,17 @@
 [
   {
-    "role": "Data Science Intern",
+    "role": "Data Scientist",
+    "organization": "Medidata Solutions (a Dassault Systèmes company)",
+    "startDate": "Aug 2025",
+    "endDate": "Present",
+    "experiences": [
+      "Developing a next-gen ML Prediction Service (Coder+) for intelligent medical coding using RAG architecture with vector embedded MedDRA and WHODrug data stored in Mongo Vector DB",
+      "Developing Edit Check Generation, Duplimarker and Deduplication Microservices using HNSW for efficient retrieval of similar edit checks"
+    ],
+    "imageSrc": "organizations/medidata.jpeg"
+  },
+  {
+    "role": "Data Science Intern (Spring 2025)",
     "organization": "Medidata Solutions (a Dassault Systèmes company)",
     "startDate": "Feb 2025",
     "endDate": "Jun 2025",
@@ -15,7 +26,7 @@
     "role": "Data Scientist (Research Assistant)",
     "organization": "New York University",
     "startDate": "Jan, 2024",
-    "endDate": "Present",
+    "endDate": "May 2025",
     "experiences": [
       "Built NYU Mate, a GenAI academic assistant using LLaMA 2 and LangChain-based RAG pipeline, improving student support satisfaction by 18%.",
       "Developed retrieval-augmented search over NYU’s academic and policy documents, achieving over 92% accuracy in answer relevancy.",
@@ -24,7 +35,7 @@
     "imageSrc": "organizations/nyu.png"
   },
   {
-    "role": "Data Science Intern",
+    "role": "Data Science Intern (Summer 2024)",
     "organization": "Medidata Solutions (a Dassault Systèmes company)",
     "startDate": "May 2024",
     "endDate": "Aug 2024",
@@ -37,7 +48,7 @@
   },
   {
     "role": "Data Scientist",
-    "organization": "C5i",
+    "organization": "C5i (formerly known as Course5i)",
     "startDate": "Feb 2023",
     "endDate": "Aug 2023",
     "experiences": [
@@ -72,7 +83,7 @@
     "imageSrc": "organizations/west.png"
   },
   {
-    "role": "Graduate Software Trainee",
+    "role": "Data Science Intern",
     "organization": "West Pharmaceutical Services",
     "startDate": "Jan 2020",
     "endDate": "Jun 2020",
