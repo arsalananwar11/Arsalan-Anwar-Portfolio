@@ -28,8 +28,10 @@ export default function Leadership() {
   return (
     <section className={styles.container} id="leadership">
       <div className={styles.header}>
-        <h2 className={styles.title}>Leadership & Extracurricular</h2>
-        <p className={styles.subtitle}>Beyond technical skills - leadership, community impact, and personal growth</p>
+        <h2 className="text-3xl sm:text-4xl font-extrabold text-center bg-gradient-to-r from-blue-700 via-blue-500 to-blue-800 bg-clip-text text-transparent mb-2 tracking-tight">
+          Leadership & Extracurricular Activities
+        </h2>
+        <p className="text-center text-gray-600 mb-8">Beyond technical skills - leadership, community impact, and personal growth</p>
 
         <div className={styles.dropdownContainer}>
           <select
