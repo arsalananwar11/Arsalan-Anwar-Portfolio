@@ -2,7 +2,6 @@
 
 .container {
   width: 100%;
-  max-width: 1400px;
   margin: 0 auto;
   padding: 2.5rem 2rem;
   background: linear-gradient(135deg, #f6f6f6, #e8dded, #b9c6d9);
@@ -176,7 +175,7 @@
   width: 2.5rem;
   height: 2.5rem;
   background: rgba(255, 255, 255, 0.9);
-  color: #0ea5e9;
+  color: #0e3de9;
   border-radius: 50%;
   text-decoration: none;
   transition: all 0.3s ease;
@@ -213,7 +212,7 @@
   margin-bottom: 1rem;
   flex: 1;
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }

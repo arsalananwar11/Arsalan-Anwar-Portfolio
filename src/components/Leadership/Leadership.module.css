@@ -3,7 +3,8 @@
 .container {
   color: var(--color-text-primary);
   margin: var(--space-3xl) auto;
-  max-width: 1400px;
+  background: linear-gradient(135deg, #f6f6f6, #e8dded, #b9c6d9);
+
   padding: var(--space-xl);
   position: relative;
 }
