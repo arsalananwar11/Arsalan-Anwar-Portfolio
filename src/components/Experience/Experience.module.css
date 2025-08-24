@@ -430,4 +430,223 @@
   .achievementItem {
     padding: 0.75rem;
   }
+  
+  /* Hide desktop experience view on mobile */
+  .showcase {
+    display: none !important;
+  }
+  
+  /* Show mobile experience view */
+  .mobileExperience {
+    display: block !important;
+  }
+}
+
+/* Mobile Experience View Styles */
+.mobileExperience {
+  display: none;
+  padding: 1rem 0;
+}
+
+.mobileExperienceTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1e40af;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.mobileCompanyList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.mobileCompanyCard {
+  background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+  border-radius: 1rem;
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.08);
+  border: 1px solid rgba(226, 232, 240, 0.6);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.mobileCompanyHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: linear-gradient(145deg, #f8fafc 0%, #f1f5f9 100%);
+}
+
+.mobileCompanyHeader:hover {
+  background: linear-gradient(145deg, #eff6ff 0%, #dbeafe 100%);
+}
+
+.mobileCompanyInfo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex: 1;
+}
+
+.mobileCompanyLogo {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+  border: 2px solid #e2e8f0;
+}
+
+.mobileCompanyName {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0 0 0.25rem 0;
+}
+
+.mobileCompanyDuration {
+  font-size: 0.9rem;
+  color: #64748b;
+  margin: 0;
+  font-weight: 500;
+  display: none;
+}
+
+.mobileExpandIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #64748b;
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+}
+
+.mobileExpandIcon.expanded {
+  transform: rotate(90deg);
+  color: #1e40af;
+}
+
+.mobileRolesList {
+  padding: 0 1.25rem 1.25rem 1.25rem;
+  background: white;
+  border-top: 1px solid #e2e8f0;
+}
+
+.mobileRoleCard {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(145deg, #f8fafc 0%, #f1f5f9 100%);
+  border-radius: 0.75rem;
+  border: 1px solid #e2e8f0;
+}
+
+.mobileRoleCard:last-child {
+  margin-bottom: 0;
+}
+
+.mobileRoleHeader {
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.mobileRoleTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 0 0 0.5rem 0;
+}
+
+.mobileRoleMeta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.85rem;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.mobileAchievementsSection {
+  background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  border: 1px solid #e2e8f0;
+}
+
+.mobileAchievementsTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #323232;
+  margin: 0 0 0.75rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.mobileAchievementsTitle::before {
+  content: '✓';
+  color: #00d916;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.mobileAchievementsList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.mobileAchievementItem {
+  display: flex;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  background: linear-gradient(145deg, #f6f8fb, #ebf1f9, #f2ebfb);
+  border-radius: 0.5rem;
+  border: 1px solid #ddf9ea;
+  transition: all 0.3s ease;
+}
+
+.mobileAchievementItem:hover {
+  background: linear-gradient(145deg, #ecf0f6, #e4ecf7, #efe8f9);
+  transform: translateX(4px);
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.1);
+}
+
+.mobileAchievementBullet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: linear-gradient(135deg, #696969 0%, #595959 100%);
+  border-radius: 50%;
+  flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(180, 180, 180, 0.3);
+}
+
+.mobileCheckIcon {
+  width: 0.8rem;
+  height: 0.8rem;
+  color: white;
+  font-weight: bold;
+}
+
+.mobileAchievementText {
+  margin: 0;
+  line-height: 1.6;
+  font-size: 0.9rem;
+  color: #374151;
+  font-weight: 500;
+}
+
+/* Desktop - Hide mobile experience view */
+@media screen and (min-width: 769px) {
+  .mobileExperience {
+    display: none !important;
+  }
+  
+  .showcase {
+    display: grid !important;
+  }
 }

@@ -7,6 +7,7 @@ import styles from "./Experience.module.css";
 export default function Experience() {
   const [selectedCompany, setSelectedCompany] = useState(0);
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
+  const [expandedCompany, setExpandedCompany] = useState(null);
 
   // Debug logging
   console.log('Experience component rendering, history:', history);
@@ -101,6 +102,14 @@ export default function Experience() {
     );
   };
 
+  const toggleCompanyExpansion = (companyId) => {
+    if (expandedCompany === companyId) {
+      setExpandedCompany(null);
+    } else {
+      setExpandedCompany(companyId);
+    }
+  };
+
   // Fallback if no data
   if (!companiesData || companiesData.length === 0) {
     return (
@@ -171,9 +180,9 @@ export default function Experience() {
                   </h3>
                 </div>
                 
-                <p className={styles.companyDuration}>
+                {/*<p className={styles.companyDuration}>
                   Total Duration: {getTotalCompanyDuration(company.roles)}
-                </p>
+                </p>*/}
               </div>
 
               {/* Single Role Display */}
@@ -238,8 +247,71 @@ export default function Experience() {
                     </div>
                   ))}
                 </div>
-
               </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Mobile Experience View */}
+      <div className={styles.mobileExperience}>
+        <h3 className={styles.mobileExperienceTitle}>Experience Timeline</h3>
+        <div className={styles.mobileCompanyList}>
+          {companiesData.map((company, companyId) => (
+            <div key={companyId} className={styles.mobileCompanyCard}>
+              <div 
+                className={styles.mobileCompanyHeader}
+                onClick={() => toggleCompanyExpansion(companyId)}
+              >
+                <div className={styles.mobileCompanyInfo}>
+                  <img 
+                    src={getImageURL(company.imageSrc)} 
+                    alt={company.name}
+                    className={styles.mobileCompanyLogo}
+                  />
+                  <div>
+                    <h4 className={styles.mobileCompanyName}>{company.name}</h4>
+                    <p className={styles.mobileCompanyDuration}>
+                      {getTotalCompanyDuration(company.roles)}
+                    </p>
+                  </div>
+                </div>
+                <div className={`${styles.mobileExpandIcon} ${expandedCompany === companyId ? styles.expanded : ''}`}>
+                  <HiChevronRight />
+                </div>
+              </div>
+              
+              {expandedCompany === companyId && (
+                <div className={styles.mobileRolesList}>
+                  {company.roles.map((role, roleId) => (
+                    <div key={roleId} className={styles.mobileRoleCard}>
+                      <div className={styles.mobileRoleHeader}>
+                        <h5 className={styles.mobileRoleTitle}>{role.role}</h5>
+                        <div className={styles.mobileRoleMeta}>
+                          <span>📅 {role.startDate} - {role.endDate}</span>
+                          <span>⏱️ {getDuration(role.startDate, role.endDate)}</span>
+                        </div>
+                      </div>
+                      
+                      <div className={styles.mobileAchievementsSection}>
+                        <h6 className={styles.mobileAchievementsTitle}>Key Achievements</h6>
+                        <div className={styles.mobileAchievementsList}>
+                          {role.experiences.map((experience, expId) => (
+                            <div key={expId} className={styles.mobileAchievementItem}>
+                              <div className={styles.mobileAchievementBullet}>
+                                <HiCheck className={styles.mobileCheckIcon} />
+                              </div>
+                              <p className={styles.mobileAchievementText}>
+                                {experience}
+                              </p>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
           ))}
         </div>

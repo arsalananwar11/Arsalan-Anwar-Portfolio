@@ -317,7 +317,7 @@
   background-color: #EF4444; /* Rose-500 */
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 768px) {
   .container {
     padding: var(--space-lg);
     margin: var(--space-2xl) auto;

@@ -270,7 +270,7 @@
 }
 
 /* Responsive Design */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
   .projectsGrid {
     grid-template-columns: repeat(auto-fit, minmax(320px, 380px));
     gap: 1.25rem;

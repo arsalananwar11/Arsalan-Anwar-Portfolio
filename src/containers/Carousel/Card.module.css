@@ -177,7 +177,7 @@
   transform: translateY(-2px) scale(1.04);
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 768px) {
   .container {
     padding: 16px 20px;
     max-width: 100%;

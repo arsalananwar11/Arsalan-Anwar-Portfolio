@@ -336,6 +336,7 @@
   }
   
   .scrollNavigation {
+    flex-direction: row;
     gap: 1rem;
     margin-bottom: 1.5rem;
   }
@@ -402,7 +403,7 @@
   }
   
   .scrollNavigation {
-    flex-direction: column;
+    flex-direction: row;
     gap: 0.75rem;
   }
   

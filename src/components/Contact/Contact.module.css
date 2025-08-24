@@ -152,7 +152,7 @@
   font-size: var(--text-md);
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 768px) {
   .container {
     padding: 40px 5%;
   }
