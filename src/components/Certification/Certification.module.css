@@ -1,33 +1,425 @@
 @import "../../vars.css";
 
 .container {
-  color: var(--color-text-primary);
-  margin: var(--space-3xl) auto;
-  max-width: 1400px;
-  padding: var(--space-xl);
+  width: 100%;
+  margin: 20px  auto;
+  padding: 2.5rem 2rem;
+  font-family: 'Inter', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .title {
-  color: var(--color-primary);
-  font-size: var(--text-4xl);
-  font-weight: var(--font-weight-bold);
-  text-align: center;
-  margin-bottom: var(--space-2xl);
-  animation: fadeIn 1s ease-out;
-  background: var(--gradient-primary);
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #232323;
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.5px;
+  background: linear-gradient(135deg, #2563eb 0%, #0ea5e9 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-@media screen and (max-width: 830px) {
-  .container {
-    margin-top: 0px;
-    padding: 10px 8px;
-  }
+.subtitle {
+  font-size: 1rem;
+  color: #525252;
+  font-weight: 500;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
 
+/* Skill Filters */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+}
+
+.filterBtn {
+  background: #fff;
+  color: #525252;
+  font-weight: 500;
+  border: 1.5px solid #ececec;
+  border-radius: 999px;
+  padding: 0.6rem 1.2rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Inter', Arial, sans-serif;
+  box-shadow: 0 2px 8px 0 rgba(30,41,59,0.07);
+}
+
+.filterBtn:hover {
+  background: #f8f9fb;
+  border-color: #0e3de9;
+  color: #0e3de9;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px 0 rgba(30,41,59,0.15);
+}
+
+.filterBtnActive {
+  background: #0e3de9;
+  color: #fff;
+  border-color: #0e3de9;
+  box-shadow: 0 4px 16px 0 rgba(14, 165, 233, 0.3);
+  transform: scale(1.05);
+}
+
+.filterBtnActive:hover {
+  background: #011252;
+  border-color: #0e3de9;
+  color: #fff;
+}
+
+/* Scroll Navigation */
+.scrollNavigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.scrollBtn {
+  background: #fff;
+  color: #0e3de9;
+  border: 2px solid #0e3de9;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px 0 rgba(30,41,59,0.07);
+}
+
+.scrollBtn:hover {
+  background: #0e3de9;
+  color: #fff;
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px 0 rgba(14, 61, 233, 0.3);
+}
+
+.scrollIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.certificateCount {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  border: 2px solid #ececec;
+  font-weight: 600;
+  color: #0e3de9;
+  box-shadow: 0 2px 8px 0 rgba(30,41,59,0.07);
+}
+
+.countIcon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+/* Horizontal Scroll Container */
+.scrollContainer {
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scroll-behavior: smooth;
+  padding: 0.5rem 0;
+}
+
+.scrollContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.certificatesRow {
+  display: flex;
+  gap: 1.5rem;
+  padding: 0.5rem 0;
+  min-width: max-content;
+}
+
+/* Certificate Cards */
+.certificateCard {
+  background: #fff;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  box-shadow: 0 4px 32px 0 rgba(30,41,59,0.07);
+  border: 1.5px solid #ececec;
+  transition: all 0.3s ease;
+  width: 320px;
+  flex-shrink: 0;
+  animation: fadeInUp 0.3s ease-out;
+  animation-fill-mode: both;
+}
+
+.certificateCard:nth-child(1) { animation-delay: 0.1s; }
+.certificateCard:nth-child(2) { animation-delay: 0.2s; }
+.certificateCard:nth-child(3) { animation-delay: 0.3s; }
+.certificateCard:nth-child(4) { animation-delay: 0.4s; }
+.certificateCard:nth-child(5) { animation-delay: 0.5s; }
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.certificateCard:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 20px 40px 0 rgba(30,41,59,0.15);
+  border-color: #c0bfbf;
+}
+
+.certificateImage {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.certificateImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.certificateCard:hover .certificateImage img {
+  transform: scale(1.05);
+}
+
+.certificateOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.certificateCard:hover .certificateOverlay {
+  opacity: 1;
+}
+
+.certificateLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  background: rgba(255, 255, 255, 0.9);
+  color: #0e3de9;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 1.2rem;
+}
+
+.certificateLink:hover {
+  background: #fff;
+  color: #011252;
+  transform: scale(1.15);
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.15);
+}
+
+.certificateContent {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.certificateTitle {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #232323;
+  margin-bottom: 0.75rem;
+  line-height: 1.3;
+  letter-spacing: -0.3px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.certificateDescription {
+  color: #525252;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  flex: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.certificateSkills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: auto;
+}
+
+.certificateSkill {
+  background: linear-gradient(135deg, #eceff6, #eceff6);
+  color: #0e3de9;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.25rem 0.6rem;
+  border: solid #bfc9eb;
+  border-radius: 999px;
+  letter-spacing: 0.3px;
+}
+
+.noCertificates {
+  text-align: center;
+  padding: 3rem;
+  color: #525252;
+}
+
+.noCertIcon {
+  width: 3rem;
+  height: 3rem;
+  color: #0e3de9;
+  margin: 0 auto 1rem;
+  opacity: 0.6;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 2rem 1rem;
+  }
+  
   .title {
-    font-size: 28px;
-    margin-bottom: 10px;
+    font-size: 2.25rem;
+  }
+  
+  .subtitle {
+    font-size: 0.95rem;
+  }
+  
+  .filters {
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .filterBtn {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+  }
+  
+  .scrollNavigation {
+    flex-direction: row;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .scrollBtn {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  
+  .scrollIcon {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  
+  .certificateCount {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
+  
+  .certificateCard {
+    width: 280px;
+  }
+  
+  .certificateImage {
+    height: 180px;
+  }
+  
+  .certificateContent {
+    padding: 1rem;
+  }
+  
+  .certificateTitle {
+    font-size: 0.95rem;
+  }
+  
+  .certificateDescription {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 1.5rem 0.5rem;
+  }
+  
+  .title {
+    font-size: 2rem;
+  }
+  
+  .header {
+    margin-bottom: 1.5rem;
+  }
+  
+  .filters {
+    justify-content: flex-start;
+    overflow-x: auto;
+    padding: 0 0.5rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  .filterBtn {
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  
+  .scrollNavigation {
+    flex-direction: row;
+    gap: 0.75rem;
+  }
+  
+  .certificateCard {
+    width: 260px;
+  }
+  
+  .certificateImage {
+    height: 160px;
+  }
+  
+  .certificateContent {
+    padding: 0.875rem;
+  }
+  
+  .certificateDescription {
+    -webkit-line-clamp: 2;
   }
 }
