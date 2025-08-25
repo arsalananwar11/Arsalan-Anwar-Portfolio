@@ -1,194 +1,226 @@
 @import "../../vars.css";
 
 .container {
-  color: var(--color-text-primary);
-  background: var(--gradient-secondary);
-  background: var(--color-bg-light);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: var(--space-3xl) var(--space-xl);
-  gap: var(--space-2xl);
-  margin-top: var(--space-3xl);
-  border-top: 1px solid var(--color-border);
-  box-shadow: var(--shadow-xl);
-  position: relative;
-  overflow: hidden;
+  width: 100%;
+  background: linear-gradient(135deg, #292929, #2a2a2a, rgb(14, 14, 14));
+  font-family: 'Inter', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  padding: 2.5rem 2rem;
+  margin-top: 0;
 }
 
-.text {
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
   text-align: center;
-  animation: fadeIn 1s ease-out;
+  margin-bottom: 2.5rem;
 }
 
-.text h2 {
-  font-size: var(--text-4xl);
-  font-weight: var(--font-weight-bold);
-  margin-bottom: var(--space-lg);
-  background: var(--gradient-primary);
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #232323;
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.5px;
+  background: linear-gradient(135deg, #0e3de9 0%, #0e3de9 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.text p {
-  font-size: var(--text-lg);
-  font-weight: var(--font-weight-normal);
-  color: var(--color-text-secondary);
-  margin-bottom: var(--space-xl);
-  max-width: 600px;
-  line-height: 1.6;
+.subtitle {
+  font-size: 1.1rem;
+  color: #b5b5b5;
+  font-weight: 500;
+  max-width: 500px;
+  margin: 0 auto;
+  line-height: 1.5;
 }
 
-.links {
+.contactGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contactCard {
+  background: #707070;
+  border-radius: 1.25rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 32px 0 rgba(30,41,59,0.07);
+  border: 1.5px solid #0e3de9;
+  transition: all 0.3s ease;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  list-style: none;
-  gap: var(--space-lg);
-  padding: 0;
-  animation: fadeInUp 1s ease-out 0.3s both;
+  gap: 1rem;
+  cursor: pointer;
 }
 
-.link {
+.contactCard:hover,
+.contactCard.active {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 40px 0 rgba(30,41,59,0.15);
+  border-color: #0e3de9;
+}
+
+.cardIcon {
+  width: 50px;
+  height: 50px;
+  background: #f8f9fb;
+  border-radius: 12px;
   display: flex;
   align-items: center;
-  gap: var(--space-lg);
-  transition: all var(--transition-normal);
-  padding: var(--space-md) var(--space-lg);
-  border-radius: var(--radius-lg);
-  background: rgba(99, 102, 241, 0.05);
-  backdrop-filter: blur(10px);
-  border: 1px solid var(--color-border);
+  justify-content: center;
+  border: 1px solid #ececec;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
 }
 
-.link:hover {
-  transform: translateY(-5px);
-  background: rgba(99, 102, 241, 0.1);
-  box-shadow: var(--shadow-lg);
-}
-
-.link a {
-  color: var(--color-text-primary);
-  text-decoration: none;
-  font-size: var(--text-lg);
-  font-weight: var(--font-weight-medium);
-  transition: color var(--transition-normal);
-}
-
-.link:hover a {
-  color: var(--color-primary);
+.contactCard:hover .cardIcon {
+  background: #0e3de9;
+  border-color: #0e3de9;
 }
 
 .icon {
-  height: 40px;
-  width: 40px;
-  transition: transform var(--transition-normal);
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s ease;
 }
 
-.link:hover .icon {
-  transform: scale(1.2);
+.contactCard:hover .icon {
+  filter: brightness(0) invert(1);
 }
 
-.linksRow {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: stretch;
-  gap: var(--space-2xl);
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  animation: fadeInUp 1s ease-out 0.3s both;
+.cardContent {
+  flex: 1;
+  min-width: 0;
 }
 
-.linkRow {
-  display: flex;
-  align-items: center;
-  background: rgba(99, 102, 241, 0.05);
-  border-radius: var(--radius-lg);
-  border: 1px solid var(--color-border);
-  box-shadow: var(--shadow-md);
-  transition: box-shadow var(--transition-normal), background var(--transition-normal), transform var(--transition-normal);
-  padding: var(--space-md) var(--space-lg);
+.methodLabel {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #dadada;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
-.linkRow:hover {
-  background: rgba(99, 102, 241, 0.12);
-  box-shadow: var(--shadow-xl);
-  transform: translateY(-4px) scale(1.03);
-}
-
-.linkIconBtn {
-  display: flex;
-  align-items: center;
-  gap: var(--space-md);
+.contactLink {
+  color: #232323;
   text-decoration: none;
-  color: var(--color-text-primary);
-  font-size: var(--text-lg);
-  font-weight: var(--font-weight-medium);
-  transition: color var(--transition-normal);
-}
-
-.linkIconBtn:hover {
-  color: var(--color-primary);
-}
-
-.iconRow {
-  width: 36px;
-  height: 36px;
-  transition: transform var(--transition-normal);
-}
-
-.linkRow:hover .iconRow {
-  transform: scale(1.15);
-}
-
-.linkText {
-  white-space: nowrap;
+  font-size: 0.95rem;
+  font-weight: 500;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  transition: color 0.3s ease;
+  display: block;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: var(--text-md);
+  white-space: nowrap;
 }
 
+.contactLink:hover {
+  color: #0e3de9;
+}
+
+.cta {
+  text-align: center;
+}
+
+.ctaButton {
+  display: inline-block;
+  background: #0e3de9;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 16px 0 rgba(14, 61, 233, 0.3);
+  border: none;
+  cursor: pointer;
+}
+
+.ctaButton:hover {
+  background: #011252;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px 0 rgba(14, 61, 233, 0.4);
+}
+
+/* Responsive Design */
 @media screen and (max-width: 768px) {
   .container {
-    padding: 40px 5%;
+    padding: 2rem 1rem;
   }
 
-  .text h2 {
-    font-size: 32px;
+  .title {
+    font-size: 2rem;
   }
 
-  .text p {
-    font-size: 18px;
+  .subtitle {
+    font-size: 1rem;
   }
 
-  .link a {
-    font-size: 18px;
+  .contactGrid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .contactCard {
+    padding: 1.25rem;
+  }
+
+  .cardIcon {
+    width: 45px;
+    height: 45px;
   }
 
   .icon {
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
   }
 
-  .linksRow {
-    flex-direction: column;
-    gap: var(--space-lg);
-    align-items: center;
+  .ctaButton {
+    padding: 0.875rem 1.75rem;
+    font-size: 0.95rem;
   }
-  .linkRow {
-    width: 100%;
-    justify-content: center;
-    padding: var(--space-md) var(--space-md);
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 1.5rem 0.75rem;
   }
-  .iconRow {
-    width: 28px;
-    height: 28px;
+
+  .title {
+    font-size: 1.75rem;
   }
-  .linkText {
-    font-size: var(--text-sm);
+
+  .contactCard {
+    padding: 1rem;
+    gap: 0.75rem;
+  }
+
+  .cardIcon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .methodLabel {
+    font-size: 0.8rem;
+  }
+
+  .contactLink {
+    font-size: 0.85rem;
   }
 }
