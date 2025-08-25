@@ -6,7 +6,7 @@ import certificates from "../../data/certificates.json";
 import { getImageURL } from "../../utils";
 
 export default function Certification() {
-  const [selectedCategory, setSelectedCategory] = useState("GenAI & AI Agents");
+  const [selectedCategory, setSelectedCategory] = useState("All");
   const scrollContainerRef = useRef(null);
 
   // Extract all unique skills from certificates for filtering

@@ -12,12 +12,12 @@
   {
     "title": "SQL",
     "imageSrc": "skills/mysql.png",
-    "category": "Database Management"
+    "category": "Database"
   },
   {
     "title": "PostgreSQL",
     "imageSrc": "skills/postgresql.png",
-    "category": "Database Management"
+    "category": "Database"
   },
   {
     "title": "Numpy",
@@ -37,71 +37,71 @@
   {
     "title": "Flask",
     "imageSrc": "skills/flask.png",
-    "category": "Backend Development"
+    "category": "Full Stack Development"
   },
   {
     "title": "Django",
     "imageSrc": "skills/django.png",
-    "category": "Backend Development"
+    "category": "Full Stack Development"
   },
   {
     "title": "AWS",
     "imageSrc": "skills/aws.png",
-    "category": "Cloud Computing"
+    "category": "Cloud Computing & DevOps"
   },
   {
-    "title": "Azure DevOps",
+    "title": "Azure",
     "imageSrc": "skills/azure_devops.png",
-    "category": "DevOps"
+    "category": "Cloud Computing & DevOps"
   },
   {
     "title": "Git",
     "imageSrc": "skills/git.png",
-    "category": "DevOps"
+    "category": "Cloud Computing & DevOps"
   },
   {
     "title": "Docker",
     "imageSrc": "skills/docker.png",
-    "category": "DevOps"
+    "category": "Cloud Computing & DevOps"
   },
   {
     "title": "Travis CI",
     "imageSrc": "skills/travis_ci.png",
-    "category": "DevOps"
+    "category": "Cloud Computing & DevOps"
   },
   {
     "title": "GitHub",
     "imageSrc": "skills/github.png",
-    "category": "DevOps"
+    "category": "Cloud Computing & DevOps"
   },
   {
     "title": "Firebase",
     "imageSrc": "skills/firebase.png",
-    "category": "Others"
+    "category": "Database"
   },
   {
     "title": "Figma",
     "imageSrc": "skills/figma.png",
-    "category": "Frontend Development"
+    "category": "Full Stack Development"
   },
   {
     "title": "HTML",
     "imageSrc": "skills/html.png",
-    "category": "Frontend Development"
+    "category": "Full Stack Development"
   },
   {
     "title": "CSS",
     "imageSrc": "skills/css.png",
-    "category": "Frontend Development"
+    "category": "Full Stack Development"
   },
   {
     "title": "JavaScript",
     "imageSrc": "skills/javascript.png",
-    "category": "Frontend Development"
+    "category": "Full Stack Development"
   },
   {
     "title": "React",
     "imageSrc": "skills/react.png",
-    "category": "Frontend Development"
+    "category": "Full Stack Development"
   }
 ]
