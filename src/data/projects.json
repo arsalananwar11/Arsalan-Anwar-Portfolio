@@ -5,7 +5,7 @@
     "description": "A unified AI assistant and content management system that significantly improved student engagement and learning efficiency by 21% through an integrated front-end and scalable back-end built with Flask and Firebase.",
     "skills": ["Flask", "Firebase", "Azure DevOps", "Pinecone", "LangChain", "Hugging Face", "Retreival Augmented Generation (RAG)", "Python"],
     "demo":"https://www.inquis-ai.com/",
-    "category": ["GenAI/AI Agents", "Data Science/Machine Learning", "Cloud Computing"]
+    "category": ["GenAI & AI Agents", "Data Science/Machine Learning", "Cloud Computing"]
   },
   {
       "title": "Automated Industrial Inspection System using Computer Vision",
